@@ -1,0 +1,21 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ site.title }} | {{ page.title }}</title>
+
+  <meta name="description" content="{% if page.Meta %}{{ page.Meta }}{% endif %}{% for tag in page.tags %}{% if forloop.last == true %}{{ tag }}{% else %}{{ tag }}, {% endif %}{% endfor %}">
+  {% feed_meta %}
+
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d73f3f">
+  <meta name="msapplication-TileColor" content="#d73f3f">
+  <meta name="theme-color" content="#ffffff">
+
+</head>

@@ -1,0 +1,86 @@
+---
+layout: default
+---
+
+<div class="page container">
+
+  <header class="page-header">
+    {% if page.url contains "jobs" %}
+      <h6>Jobs <span>(<a href="/jobs">See all vacancies</a>)</span></h6>
+    {% endif %}
+    {% if page.url contains "partners" %}
+      <h6>Partners <span>(<a href="/partners">Back</a>)</span></h6>
+    {% endif %}
+    <h1>{{ page.title }}</h1>
+    <div class="hr-h"></div>
+  </header>
+
+  <div class="page-layout-body">
+    <div class="page-content article">
+      {% if page['Intro Text'] %}
+        <p class="news-summary">{{ page['Intro Text' ]}}</p>
+      {% endif %}
+      {{ content }}
+
+
+      {% if page.url contains "partners" %}
+      {% if page.Project %}
+        {% for partner-project in page.Project %}
+          {% for project in site.projects %}
+            {% if partner-project == project.title %}
+              <div class="project-index-all partner-projects">
+                {% include blocks/project-thumb.html %}
+              </div>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      {% endif %}
+      {% endif %}
+    </div>
+
+    <aside class="meta">
+
+      {% if page['Place of Work'] %}
+        <div class="meta-item">
+          <h5>Place of Work</h5>
+          <ul>
+            <li>{{ page['Place of Work'] }}</li>
+          </ui>
+        </div>
+      {% endif %}
+
+      {% if page['Deadline Date'] %}
+        <div class="meta-item">
+          <h5>Deadline</h5>
+          <ul>
+            <li>{{ page['Deadline Date'] | date: '%d %B, %Y' }}</li>
+          </ui>
+        </div>
+      {% endif %}
+
+      {% if page['Apply Form Link'] %}
+      <div class="sticky-wrap">
+        <a class="btn btn-primary btn-block btn-chevron" href="{{ page['Apply Form Link'] }}">Apply</a>
+      </div>
+      {% endif %}
+
+      {% if page['Page Contact'] %}
+        <p class="meta-p">{{ page['Page Contact']['Text'] }}</p>
+        <div class="sticky-wrap">
+          <a class="btn btn-primary btn-block btn-chevron" href="mailto:{{ page['Page Contact']['Contact Email'] }}">{{ page['Page Contact']['Label'] }}</a>
+        </div>
+      {% endif %}
+
+      {% if page['Page Link'] %}
+        <p class="meta-p">{{ page['Page Link']['Text'] }}</p>
+        <div class="sticky-wrap">
+          <a class="btn btn-primary btn-block btn-chevron" href="{{ page['Page Link']['Link'] }}">{{ page['Page Link']['Label'] }}</a>
+        </div>
+      {% endif %}
+
+
+    </aside>
+
+  </div>
+
+</div>
