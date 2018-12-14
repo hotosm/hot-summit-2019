@@ -67,7 +67,11 @@ layout: default
       {% if page['Page Contact'] %}
         <p class="meta-p">{{ page['Page Contact']['Text'] }}</p>
         <div class="sticky-wrap">
+          {% if page['Page Contact']['Contact Email']%}
           <a class="btn btn-primary btn-block btn-chevron" href="mailto:{{ page['Page Contact']['Contact Email'] }}">{{ page['Page Contact']['Label'] }}</a>
+          {% else %}
+          <a class="btn btn-primary btn-block btn-chevron" href="{{ page['Page Contact']['Link'] }}">{{ page['Page Contact']['Label'] }}</a>
+          {% endif %}
         </div>
       {% endif %}
 
