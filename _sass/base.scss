@@ -1853,12 +1853,14 @@ em {
 
 
 .site-footer {
-  background-color: $red;
+  background-color: white;
+  float: left;
+  width: 100%;
   h4 {
-    color: $white;
+    color: $blue-dark;
   }
   @media (min-width: $screen-sm) {
-    padding: 0 0 0;
+    padding: 40px 0 0;
   }
   .nav-group {
     margin-bottom: 32px;
@@ -1893,8 +1895,8 @@ em {
 .footer-body {
   @media (min-width: $screen-sm) {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-bottom: 40px;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 10px;
   }
 }
 
@@ -1907,26 +1909,14 @@ em {
 
 .footer-logo {
   display: inline-block;
-  width: 112px;
-  height: 112px;
-  display: block;
-  border-radius: 56px;
-  box-shadow: $default-box-shadow;
-  &:hover {
-    box-shadow: $hover-box-shadow;
-  }
-  img {
-    width: 112px;
-    height: 112px;
-  }
 }
 
 .footer-logos, .footer-nav {
-  border-right: 1px solid shade($red, 20%);
+  border-right: 1px solid shade($grey-light, 20%);
 }
 
 .footer-copyright {
-  background-color: shade($red, 25%);
+  background-color: shade($red, 50%);
   padding: 12px 0;
   .container {
     display: flex;
