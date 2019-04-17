@@ -6,7 +6,7 @@ Intro Text:
 Page Contact:
   Label: Submit your proposal
   Text: Call for proposals is open!
-  Link: https://docs.google.com/forms/d/e/1FAIpQLSd8RcieziMbhCWCQ0tO2f_4xL002whJInWX-jn5lCAyCB856w/viewform
+  Link: https://docs.google.com/forms/d/e/1FAIpQLSeoVjlnyV1rmjIpABM-c0GSGx40SNqagQoEf9hU47iFVQjjRw/viewform
 ---
 
 ![](/images/call-for-proposals.jpg)
