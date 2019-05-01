@@ -33,7 +33,7 @@ If you have any question please email us at summit@hotosm.org
 ## Important Dates
 
 * Call for participation announcement: **April 1, 2019**
-* Deadline to submit your proposal: **April 30, 2019**
+* Deadline to submit your proposal: **May 3, 2019**
 * Notification of accepted proposals: **May 15, 2019**
 * Summit dates: **September 19-20th, 2019**
 
