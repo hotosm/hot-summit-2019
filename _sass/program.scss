@@ -1,0 +1,41 @@
+.program-body {
+  margin-bottom: 40px;
+  @media (min-width: $screen-xs) {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 24px;
+  }
+}
+
+.program-content {
+  grid-column: 1 / -1;
+  h2 {
+    margin-bottom: 32px;
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+  p {
+    font-size: 1rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  a {
+    display: block;
+  }
+  .program-table {
+    @media (min-width: $screen-xs) {
+      display: grid;
+      grid-gap: 24px;
+    }
+  }
+  .program-table {
+    grid-template-columns: repeat(4, 1fr);
+    @media (max-width: $screen-xs) {
+      p {
+        margin-bottom: 24px;
+      }
+    }
+  }
+}
