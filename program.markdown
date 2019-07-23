@@ -9,15 +9,15 @@ Page Contact:
   Contact Email: summit@hotosm.org
 
 Day1:
-  - title: 8:30 AM
+  - time: 8:30 AM
     session:
-      - location:
+      - location: Main area
         title: Registration and breakfast
-  - title: 9:00 AM
+  - time: 9:00 AM
     session:
-      - location:
+      - location: West Lecture
         title: "Welcome Remarks/Lightning Talks"
-  - title: 9:30 AM
+  - time: 9:30 AM
     session:
       - location: West Lecture
         title: "Workshop 1: OSM Vector Tiles to the Field"
@@ -27,7 +27,7 @@ Day1:
         presenter: "Jorge Martinez Garcia & Felix Delattre"
       - location: "Small Lecture/ Mtg. Room"
         title: "Discussion: Gender & Diversity in OSM Action (And Beyond)"
-  - title: 10:00 AM
+  - time: 10:00 AM
     session:
       - location:
         title:
@@ -37,11 +37,11 @@ Day1:
         presenter:
       - location: "Small Lecture/ Mtg. Room"
         title: "Discussion: An Intro to Software Collaboration for Non-Developers presenter: Wille Marcel & Ramya Ragupathy"
-  - title: 11:00 AM
+  - time: 11:00 AM
     session:
-      - location:
+      - location: Main area
         title: "Coffee / Networking Break"
-  - title: 11:30 AM
+  - time: 11:30 AM
     session:
       - location: West Lecture
         title: "Workshop 3: Quality Data from Every Source - Tasking Manager & Mapathons"
@@ -52,7 +52,7 @@ Day1:
       - location: "Small Lecture/ Mtg. Room"
         title: "Discussion: Everyday Experiences with HOT"
         presenter: "David Garcia & Martin Dittus"
-  - title: 12:30 PM
+  - time: 12:30 PM
     session:
       - location:
         title:
@@ -63,11 +63,11 @@ Day1:
       - location: "Small Lecture/ Mtg. Room"
         title: "Discussion: YouthMappers"
         presenter: Chad Blevins
-  - title: 13:45 PM
+  - time: 13:45 PM
     session:
-      - location: 
+      - location: Main area
         title: Lunch 
-  - title: 14:45 PM
+  - time: 14:45 PM
     session:
       - location: West Lecture
         title: "Workshop 5: The power of OpenStreetMap and the Red Cross and Red Crescent Movement to antizipate disasters"
@@ -77,7 +77,7 @@ Day1:
         presenter: "Martin Raifer & Mapbox"
       - location: "Small Lecture/ Mtg. Room"
         title: "Discussion: OSM Local Community Members Meeting"
-  - title: 14:45 PM
+  - time: 14:45 PM
     session:
       - location:
         title:
@@ -86,23 +86,24 @@ Day1:
         title:
         presenter:
       - location: "Small Lecture/ Mtg. Room"
-        title: "Discussion: HOT Voting Members Forum [Closed]"
-        presenter:
-  - title: 16:30 PM
+        title: "Discussion: HOT Voting Members Forum"
+        presenter: Closed to Voting Members
+  - time: 16:30 PM
     session:
-      - location: 
+      - location: TBD
         title: HOT Sponsored Event
+        presenter:
 
 Day2:
-  - title: 8:30 AM
+  - time: 8:30 AM
     session:
-      - location:
+      - location: Main area
         title: Registration and breakfast
-  - title: 9:00 AM
+  - time: 9:00 AM
     session:
-      - location:
+      - location: West Lecture
         title: "Keynote & Welcome"
-  - title: 9:45 AM
+  - time: 9:45 AM
     session:
       - location: West Lecture
         title: TBD
@@ -112,11 +113,11 @@ Day2:
       - location: Small Lecture
         title: "Refugee and IDP settlement mapping w/ HOT data, machine learning, and crowd-sourcing"
         presenter: Hannah Friedrich
-  - title: 10:30 AM
+  - time: 10:30 AM
     session:
       - location: West Lecture
         title: Coffee Break
-  - title: 11:00 AM
+  - time: 11:00 AM
     session:
       - location: West Lecture
         title: "Women’s “everyday” crises and feminist approaches to mapping and spatial methods"
@@ -127,7 +128,7 @@ Day2:
       - location: Small Lecture
         title: "Resilient Networks, OSM and Open Data to Achieve the SDGs and MAPAbabae II- Mapathon for VAWmapPH"
         presenter: Celina Agaton & Arnalie Faye Vicario
-  - title: 12:00 PM
+  - time: 12:00 PM
     session:
       - location: West Lecture
         title: "The Meteor Project"
@@ -138,11 +139,11 @@ Day2:
       - location: Small Lecture
         title: "Mapillary 2020"
         presenter: "Brenna Higgins & Lindsey Higgins"
-  - title: 12:45 PM
+  - time: 12:45 PM
     session:
-      - location: 
+      - location: Main area
         title: Lunch
-  - title: 14:00 PM
+  - time: 14:00 PM
     session:
       - location: West Lecture
         title: "Mapping for Malaria Elimination"
@@ -151,7 +152,7 @@ Day2:
         title: "Mapathons, Validation & Mapping Quality - A Debate"
       - location: Small Lecture
         title: "YouthMappers"
-  - title: 15:00 PM
+  - time: 15:00 PM
     session:
       - location: West Lecture
         title: "Integration of (digital) volunteers in disaster management "
@@ -162,11 +163,11 @@ Day2:
       - location: Small Lecture
         title: "Tales from the Tasking Manager"
         presenter: Felix Delattre
-  - title: 15:45 PM
+  - time: 15:45 PM
     session:
-      - location:
+      - location: Main area
         title: Coffee
-  - title: 16:15 PM
+  - time: 16:15 PM
     session:
       - location: West Lecture
         title: The Validation Process
@@ -176,7 +177,7 @@ Day2:
         presenter: Osvaldo Sánchez
       - location: Small Lecture
         title: HOT Micrograntees
-  - title: 17:15 PM
+  - time: 17:15 PM
     session:
       - location: West Lecture
         title: "Mapping for resilience – Area-based approaches in humanitarian contexts"
@@ -186,8 +187,8 @@ Day2:
         presenter: Melanie Chabot
       - location: Small Lecture
         title: TBD
-  - title: 18:00 PM
+  - time: 18:00 PM
     session:
-      - location:
+      - location: West Lecture
         title: "Close/Wrap-up + Evening Brief"
 ---
