@@ -85,3 +85,38 @@ const collapse = (selector, cmd) => {
     target.classList[fnmap[cmd]]('show');
   });
 }
+
+// Program day switching
+
+var selectInput = document.querySelectorAll('.choose'),
+    panels = document.querySelectorAll('.program-content'),
+    currentSelect = 'sept-19',
+    i;
+
+function clearShow() {
+  for ( i = 0; i < panels.length; i++ ) {
+    panels[i].classList.remove('show');
+  }
+}
+
+function addShow(showThis) {
+  var el = document.getElementsByClassName(showThis);
+  for ( i = 0; i < el.length; i++ ) {
+     el[i].classList.add('show');
+   }
+}
+
+function vUpdate(selection) {
+  currentSelect = selection.id;
+
+  clearShow();
+  addShow(currentSelect);
+}
+
+selectInput.forEach(function(selection) {
+  selection.addEventListener('click', function() {
+    vUpdate(selection);
+  });
+});
+
+addShow(currentSelect);

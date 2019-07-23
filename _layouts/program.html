@@ -11,8 +11,20 @@ layout: default
 
   <div class="program-body">
 
-    <div class="program-content article">
-      <h2 id="sept-19">SEPT 19</h2>
+<!--     <div class="select-area">
+      <select name="choose" id="choose" class="day-select">
+        <option value="sept-19" id="sept-19">SEPT 19</option>
+        <option value="sept-20" id="sept-20">SEPT 20</option>
+      </select>
+    </div> -->
+
+    <div class="select-area">
+        <h2 class="choose" id="sept-19">SEPT 19</h2>
+        <h2 class="choose" id="sept-20">SEPT 20</h2>
+    </div>
+
+    <section class="program-content article sept-19">
+      
       {% for session in page.Day1 %}
       <div class="program-table">
           <div>
@@ -36,10 +48,10 @@ layout: default
       </div>
       <div class="hr-h"></div>
       {% endfor %}      
-      </div>
+    </section>
 
-    <div class="program-content article">
-      <h2 id="sept-20">SEPT 20</h2>
+    <section class="program-content article sept-20">
+      
       {% for session in page.Day2 %}
       <div class="program-table">
           <div>
@@ -64,7 +76,7 @@ layout: default
       <div class="hr-h"></div>
       {% endfor %}
 
-    </div>
+    </section>
 
   </div>
 
