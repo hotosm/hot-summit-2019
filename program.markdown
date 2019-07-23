@@ -20,7 +20,7 @@ Day1:
   - time: 9:30 AM
     session:
       - location: West Lecture Room
-        title: "Workshop 1: OSM Vector Tiles to the Field"
+        title: "(Sponsored Workshop) 1: OSM Vector Tiles to the Field"
         presenter: "ESRI"
       - location: East Lecture Room
         title: "Workshop 2: Hands-on Image Processing w/ Machine Learning for Humanitarian Action (And Beyond)"
