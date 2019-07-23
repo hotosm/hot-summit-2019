@@ -1915,7 +1915,12 @@ em {
 }
 
 .footer-logos, .footer-nav {
-  border-right: 1px solid shade($grey-light, 20%);
+  a.footer-logo {
+    max-width: 180px;
+    @media (max-width: $screen-xs) {
+      max-width: 160px;
+    }
+  }
 }
 
 .footer-copyright {

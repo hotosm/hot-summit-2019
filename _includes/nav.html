@@ -14,16 +14,13 @@
           <img class="nav-logo-text" src="{{ "/images/hot-logo-text.svg" | prepend: site.baseurl }}">
         </a>
         <nav class="nav-main">
-          <!-- <div class="hr-v first"></div> -->
           <div class="nav-group">
-            <a href="" class="{% if page.url contains '/location.html' %}active{% endif %}"></a>
-            <a href="" class="{% if page.url contains '/our-work.html'%}active{% endif %}"></a>
-            <a href="" class="{% if page.url contains '/tools-and-data.html' %}active{% endif %}"></a>
-            <a href="" class="{% if page.url contains '/updates' %}active{% endif %}"></a>
+            <!-- empty group for positioning, needs to be addressed in CSS -->
           </div>
-          <!-- <div class="hr-v"></div> -->
+          <!-- main nav -->
           <div class="nav-group">
-            <a href="https://www.eventbrite.com/e/hot-summit-2019-heidelberg-germany-tickets-60315779119">Get Tickets</a>
+            <a href="https://www.eventbrite.com/e/hot-summit-2019-heidelberg-germany-tickets-60315779119" target="_blank">Get Tickets</a>
+            <a href="/program" class="{% if page.url contains '/program'%}active{% endif %}">Program</a>
             <a href="/location" class="{% if page.url contains '/location'%}active{% endif %}">Location</a>
             <a href="/sponsorship" class="{% if page.url contains '/sponsorship'%}active{% endif %}">Sponsorship Info</a>
           </div>
