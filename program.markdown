@@ -26,7 +26,7 @@ Day1:
         title: "Workshop 2: Hands-on Image Processing w/ Machine Learning for Humanitarian Action (And Beyond)"
         presenter: "Jorge Martinez Garcia & Felix Delattre - HOTOSM"
       - location: Small Lecture Room
-        title: "Discussion: Gender & Diversity in OSM Action (And Beyond)"
+        title: "Discussion: Gender & Diversity in OSM Action"
   - time: 10:15 AM
     session:
       - location:
