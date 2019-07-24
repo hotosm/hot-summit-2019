@@ -27,7 +27,7 @@ Day1:
         presenter: "Jorge Martinez Garcia & Felix Delattre - HOTOSM"
       - location: Small Lecture Room
         title: "Discussion: Gender & Diversity in OSM Action (And Beyond)"
-  - time: 10:00 AM
+  - time: 10:15 AM
     session:
       - location:
         title:
@@ -36,7 +36,7 @@ Day1:
         title:
         presenter:
       - location: Small Lecture Room
-        title: "Discussion: An Intro to Software Collaboration for Non-Developers presenter"
+        title: "Discussion: An Intro to Software Collaboration for Non-Developers"
         presenter: "Wille Marcel & Ramya Ragupathy - HOTOSM"
   - time: 11:00 AM
     session:
