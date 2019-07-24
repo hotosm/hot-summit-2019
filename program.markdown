@@ -162,8 +162,7 @@ Day2:
         title: "How do images get to mappers?"
         presenter: Pratik Yadav - Mapbox
       - location: Small Lecture Room
-        title: "Tales from the Tasking Manager"
-        presenter: Felix Delattre - HOTOSM
+        title: TBD
   - time: 3:45 PM
     session:
       - location: Main Lobby
@@ -174,8 +173,7 @@ Day2:
         title: The Validation Process
         presenter: Ralph Aytoun
       - location: East Lecture Room
-        title: "Youth Volunteers & Building After Disasters"
-        presenter: Osvaldo Sánchez - TECHO
+        title: TBD
       - location: Small Lecture Room
         title: HOT Micrograntees
   - time: 5:15 PM
