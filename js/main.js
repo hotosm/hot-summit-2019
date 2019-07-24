@@ -88,14 +88,14 @@ const collapse = (selector, cmd) => {
 
 // Program day switching
 
-var selectInput = document.querySelectorAll('.choose'),
+var selectInput = document.querySelectorAll('.select-item'),
     panels = document.querySelectorAll('.program-content'),
     currentSelect = 'sept-19',
     i;
 
-function clearShow() {
-  for ( i = 0; i < panels.length; i++ ) {
-    panels[i].classList.remove('show');
+function clearClass(node, className) {
+  for ( i = 0; i < node.length; i++ ) {
+    node[i].classList.remove(className);
   }
 }
 
@@ -109,8 +109,10 @@ function addShow(showThis) {
 function vUpdate(selection) {
   currentSelect = selection.id;
 
-  clearShow();
+  clearClass(panels, 'show');
+  clearClass(selectInput, 'show')
   addShow(currentSelect);
+  addShow()
 }
 
 selectInput.forEach(function(selection) {
