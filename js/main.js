@@ -85,3 +85,62 @@ const collapse = (selector, cmd) => {
     target.classList[fnmap[cmd]]('show');
   });
 }
+
+// Program day switching
+
+var selectInput = document.querySelectorAll('.select-item'),
+    panels = document.querySelectorAll('.program-content'),
+    currentSelect = 'sept-19',
+    i;
+
+const scrollToTop = () => {
+  const c = document.documentElement.scrollTop || document.body.scrollTop;
+  if (c > 192) {
+    window.requestAnimationFrame(scrollToTop);
+    window.scrollTo(0, c - c / 8);
+  }
+};
+
+function clearClass(node, className) {
+  for ( i = 0; i < node.length; i++ ) {
+    node[i].classList.remove(className);
+  }
+}
+
+function addShow(showThis) {
+  var el = document.getElementsByClassName(showThis);
+  for ( i = 0; i < el.length; i++ ) {
+     el[i].classList.add('show');
+   }
+   scrollToTop();
+}
+
+function vUpdate(selection) {
+  currentSelect = selection.id;
+  clearClass(panels, 'show');
+  clearClass(selectInput, 'show')
+  addShow(currentSelect);
+  addShow()
+}
+
+selectInput.forEach(function(selection) {
+  selection.addEventListener('click', function() {
+    vUpdate(selection);
+  });
+});
+
+addShow(currentSelect);
+
+var fixProgramTop = $('.select-area').offset().top;
+$(window).scroll(function() {
+  var currentScroll = $(window).scrollTop();
+  if (currentScroll >= fixProgramTop - 64) {
+    $('.select-area').addClass( 'fixed-nav' );
+    $('.select-item').addClass( 'fixed-nav' );
+    $('.select-dummy').addClass( 'fixed-nav' );
+  } else {
+    $('.select-area').removeClass( 'fixed-nav' );
+    $('.select-item').removeClass( 'fixed-nav' );
+    $('.select-dummy').removeClass( 'fixed-nav' );
+  }
+});
