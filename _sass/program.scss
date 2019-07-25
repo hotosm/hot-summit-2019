@@ -73,6 +73,7 @@
 .select-area {
   width: 500px;
   margin-bottom: 24px;
+  height: 88px;
   h2 {
     display: inline;
     margin-bottom: 32px;
@@ -92,6 +93,11 @@
     cursor: pointer;
     &.show {
       border-bottom: 4px solid;
+      padding-bottom: 9px;
+      transition: border-width 0.1s linear;
+    }
+    &:hover {
+      border-bottom: 4px solid rgba(44, 48, 56, 0.3);
       padding-bottom: 9px;
       transition: border-width 0.1s linear;
     }
