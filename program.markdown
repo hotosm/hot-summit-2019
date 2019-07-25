@@ -24,7 +24,7 @@ Day1:
         presenter: "ESRI"
       - location: East Lecture Room
         title: "Workshop 2: Hands-on Image Processing w/ Machine Learning for Humanitarian Action (And Beyond)"
-        presenter: "Jorge Martinez Garcia & Felix Delattre - HOTOSM"
+        presenter: "Jorge Martinez Garcia & Felix Delattre - HOT"
       - location: Small Lecture Room
         title: "Discussion: Gender & Diversity in OSM Action"
   - time: 10:15 AM
@@ -37,7 +37,7 @@ Day1:
         presenter:
       - location: Small Lecture Room
         title: "Discussion: An Intro to Software Collaboration for Non-Developers"
-        presenter: "Wille Marcel & Ramya Ragupathy - HOTOSM"
+        presenter: "Wille Marcel & Ramya Ragupathy - HOT"
   - time: 11:00 AM
     session:
       - location: Main Lobby
@@ -46,7 +46,7 @@ Day1:
     session:
       - location: West Lecture Room
         title: "Workshop 3: Quality Data from Every Source - Tasking Manager & Mapathons"
-        presenter: "Jess Beutler & Geoffrey Kateregga - HOTOSM"
+        presenter: "Jess Beutler & Geoffrey Kateregga - HOT"
       - location: East Lecture Room
         title: "Workshop 4: Dense imagery capture and editing in areas with limited infrastructure"
         presenter: "Ed Neerhut & Chris Beddow - Mapillary"
@@ -121,14 +121,14 @@ Day2:
   - time: 11:00 AM
     session:
       - location: West Lecture Room
-        title: "Women’s “everyday” crises and feminist approaches to mapping and spatial methods"
-        presenter: Natalie Rothwell & Helena Suárez Val - Warwick University
+        title: "Resilient Networks, OSM and Open Data to Achieve the SDGs"
+        presenter: Celina Agaton - MapPH
       - location: East Lecture Room
         title: "What to know before starting the next Machine Learning project?"
         presenter: Harsh Govind - Microsoft
       - location: Small Lecture Room
-        title: "Resilient Networks, OSM and Open Data to Achieve the SDGs and MAPAbabae II- Mapathon for VAWmapPH"
-        presenter: Celina Agaton - MapPH & Arnalie Faye Vicario - Department of Social Welfare and Development (DSWD)
+        title: "MAPAbabae II- Mapathon for VAWmapPH"
+        presenter: Arnalie Faye Vicario - Department of Social Welfare and Development (DSWD)
   - time: 12:00 PM
     session:
       - location: West Lecture Room
