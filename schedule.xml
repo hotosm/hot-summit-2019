@@ -1,0 +1,75 @@
+---
+---
+<schedule>
+  <version>1.0</version>
+  <conference>
+    <title>HOT Summit 2019</title>
+    <acronym>hotosm2019</acronym>
+    <days>2</days>
+    <start>2019-09-19</start>
+    <end>2019-09-20</end>
+    <timeslot_duration>00:45</timeslot_duration>
+  </conference>
+  <day index="1" date="2019-09-19" start="2019-09-19T08:30:00" end="2019-09-19T18:00:00">
+      <room name="westlecture">{% for page in site.pages %}{{ if page.title == 'Program' }}{% for session in page.Day1 %}{% for s in session.session %}{% if s.location == 'West Lecture Room' %}{% capture session_id %}{% increment id %}{% endcapture %}
+          <event id="{{ session_id }}" guid="385033fe-dda1-555a-aca6-28dd05677c66">
+            <date>2019-09-19</date>
+            <start>{{ session.time }}</start>
+            <duration>{{ s.duration }}</duration>
+            <room>westlecture</room>
+            <slug>hotosm19-1001-opening</slug>
+            <title>{{s.title}}</title>
+            <subtitle/>
+            <track/>
+            <type/>
+            <language>en</language>
+            <abstract/>
+            <description/>
+            <persons>
+              <person id="0">{{s.presenter}}</person>
+            </persons>
+            <links/>
+          </event>{% endif %}{% endfor %}{% endfor %}{% endfor %}
+    </room>
+    <room name="eastlecture">{% for page in site.pages %}{{ if page.title == 'Program' }}{% for session in page.Day1 %}{% for s in session.session %}{% if s.location == 'East Lecture Room' %}{% capture session_id %}{% increment id %}{% endcapture %}
+        <event id="{{ session_id }}" guid="385033fe-dda1-555a-aca6-28dd05677c66">
+          <date>2019-09-19</date>
+          <start>{{ session.time }}</start>
+          <duration>{{ s.duration }}</duration>
+          <room>eastlecture</room>
+          <slug>hotosm19-1001-opening</slug>
+          <title>{{s.title}}</title>
+          <subtitle/>
+          <track/>
+          <type/>
+          <language>en</language>
+          <abstract/>
+          <description/>
+          <persons>
+            <person id="0">{{s.presenter}}</person>
+          </persons>
+          <links/>
+        </event>{% endif %}{% endfor %}{% endfor %}{% endfor %}
+  </room>
+  <room name="smalllecture">{% for page in site.pages %}{{ if page.title == 'Program' }}{% for session in page.Day1 %}{% for s in session.session %}{% if s.location == 'Small Lecture Room' %}{% capture session_id %}{% increment id %}{% endcapture %}
+      <event id="{{ session_id }}" guid="385033fe-dda1-555a-aca6-28dd05677c66">
+        <date>2019-09-19</date>
+        <start>{{ session.time }}</start>
+        <duration>{{ s.duration }}</duration>
+        <room>eastlecture</room>
+        <slug>hotosm19-1001-opening</slug>
+        <title>{{s.title}}</title>
+        <subtitle/>
+        <track/>
+        <type/>
+        <language>en</language>
+        <abstract/>
+        <description/>
+        <persons>
+          <person id="0">{{s.presenter}}</person>
+        </persons>
+        <links/>
+      </event>{% endif %}{% endfor %}{% endfor %}{% endfor %}
+  </room>
+  </day>
+</schedule>

@@ -17,16 +17,20 @@ Day1:
     session:
       - location: West Lecture Room
         title: "Welcome Remarks/Lightning Talks"
+        duration: 00:30
   - time: 9:30 AM
     session:
       - location: West Lecture Room
         title: "(Sponsored Workshop) 1: OSM Vector Tiles to the Field"
         presenter: "ESRI"
+        duration: 01:30
       - location: East Lecture Room
         title: "Workshop 2: Hands-on Image Processing w/ Machine Learning for Humanitarian Action (And Beyond)"
+        duration: 01:30
         presenter: "Jorge Martinez Garcia & Felix Delattre - HOT"
       - location: Small Lecture Room
         title: "Discussion: Gender & Diversity in OSM Action"
+        duration: 00:45
   - time: 10:15 AM
     session:
       - location:
@@ -38,6 +42,7 @@ Day1:
       - location: Small Lecture Room
         title: "Discussion: An Intro to Software Collaboration for Non-Developers"
         presenter: "Wille Marcel & Ramya Ragupathy - HOT"
+        duration: 00:45
   - time: 11:00 AM
     session:
       - location: Main Lobby
@@ -47,12 +52,15 @@ Day1:
       - location: West Lecture Room
         title: "Workshop 3: Quality Data from Every Source - Tasking Manager & Mapathons"
         presenter: "Jess Beutler & Geoffrey Kateregga - HOT"
+        duration: 02:00
       - location: East Lecture Room
         title: "Workshop 4: Dense imagery capture and editing in areas with limited infrastructure"
         presenter: "Ed Neerhut & Chris Beddow - Mapillary"
+        duration: 02:00
       - location: Small Lecture Room
         title: "Discussion: Everyday Experiences with HOT"
         presenter: "David Garcia & Martin Dittus - Aotearoa, New Zealand and UK"
+        duration: 01:00
   - time: 12:30 PM
     session:
       - location:
@@ -64,6 +72,7 @@ Day1:
       - location: Small Lecture Room
         title: "Discussion: YouthMappers"
         presenter: Chad Blevins
+        duration: 01:00
   - time: 1:45 PM
     session:
       - location: Main Lobby
@@ -73,12 +82,15 @@ Day1:
       - location: West Lecture Room
         title: "Workshop 5: The power of OpenStreetMap and the Red Cross and Red Crescent Movement to antizipate disasters"
         presenter: Catalina & Stefan Scholtz
+        duration: 02:00
       - location: East Lecture Room
         title: "Workshop 6: After You Create OSM Data: Analysis and Building with Services"
         presenter: "Martin Raifer & Mapbox"
+        duration: 02:00
       - location: Small Lecture Room
         title: "Discussion: OSM Local Community Members Meeting"
-  - time: 2:45 PM
+        duration: 01:00
+  - time: 3:45 PM
     session:
       - location:
         title:
@@ -89,6 +101,7 @@ Day1:
       - location: Small Lecture Room
         title: "Discussion: HOT Voting Members Forum"
         presenter: Closed to Voting Members
+        duration: 01:00
   - time: 4:30 PM
     session:
       - location: TBD
@@ -104,16 +117,20 @@ Day2:
     session:
       - location: West Lecture Room
         title: "Keynote & Welcome"
+        duration: 00:45
   - time: 9:45 AM
     session:
       - location: West Lecture Room
         title: TBD
+        duration: 00:45
       - location: East Lecture Room
         title: "IDPs & Refugees, Mapping People in Crisis"
         presenter: "HOT Uganda/Aruba"
+        duration: 00:45
       - location: Small Lecture Room
         title: "Refugee and IDP settlement mapping w/ HOT data, machine learning, and crowd-sourcing"
         presenter: Hannah Friedrich - Oregon State University
+        duration: 00:45
   - time: 10:30 AM
     session:
       - location: West Lecture Room
@@ -123,23 +140,29 @@ Day2:
       - location: West Lecture Room
         title: "Resilient Networks, OSM and Open Data to Achieve the SDGs"
         presenter: Celina Agaton - MapPH
+        duration: 01:00
       - location: East Lecture Room
         title: "What to know before starting the next Machine Learning project?"
         presenter: Harsh Govind - Microsoft
+        duration: 01:00
       - location: Small Lecture Room
         title: "MAPAbabae II- Mapathon for VAWmapPH"
         presenter: Arnalie Faye Vicario - Department of Social Welfare and Development (DSWD)
+        duration: 01:00
   - time: 12:00 PM
     session:
       - location: West Lecture Room
         title: "The METEOR Project"
         presenter: Mhairi O'Hara & Kathmandu Living Labs
+        duration: 00:45
       - location: East Lecture Room
         title: "MapAction, HOT and the Cyclone Idai Response / H2H Networks"
         presenter: Steve Penson - MapAction & Rebecca Petras - H2H Network
+        duration: 00:45
       - location: Small Lecture Room
         title: "Mapillary 2020"
         presenter: Brenna Higgins & Lindsey Higgins
+        duration: 00:45
   - time: 12:45 PM
     session:
       - location: Main Lobby
@@ -149,20 +172,26 @@ Day2:
       - location: West Lecture Room
         title: "Mapping for Malaria Elimination"
         presenter: Jess Beutler - HOTOSM, Munachoonga Chabota - YMUNZA , & Yusuf Suleiman - Catholic Relief Services
+        duration: 01:00
       - location: East Lecture Room
         title: "Mapathons, Validation & Mapping Quality - A Debate"
+        duration: 01:00
       - location: Small Lecture Room
         title: "YouthMappers"
+        duration: 01:00
   - time: 3:00 PM
     session:
       - location: West Lecture Room
         title: "Integration of (digital) volunteers in disaster management "
         presenter: Holger Ziehm, Yannic Schulte, & Ramian Fathi
+        duration: 00:45
       - location: East Lecture Room
         title: "How do images get to mappers?"
         presenter: Pratik Yadav - Mapbox
+        duration: 00:45
       - location: Small Lecture Room
         title: TBD
+        duration: 00:45
   - time: 3:45 PM
     session:
       - location: Main Lobby
@@ -172,22 +201,29 @@ Day2:
       - location: West Lecture Room
         title: The Validation Process
         presenter: Ralph Aytoun
+        duration: 01:00
       - location: East Lecture Room
         title: TBD
+        duration: 01:00
       - location: Small Lecture Room
         title: HOT Micrograntees
+        duration: 01:00
   - time: 5:15 PM
     session:
       - location: West Lecture Room
         title: "Mapping for resilience – Area-based approaches in humanitarian contexts"
         presenter: Sebastian Langer - IMPACT Initiatives
+        duration: 00:45
       - location: East Lecture Room
         title: "Mapping Indigenous Communities with the Canadian Red Cross Missing Maps Pilot"
         presenter: Melanie Chabot - Canadian Red Cross
+        duration: 00:45
       - location: Small Lecture Room
         title: TBD
+        duration: 00:45
   - time: 6:00 PM
     session:
       - location: West Lecture Room
         title: "Close/Wrap-up + Evening Brief"
+        duration: 00:30
 ---
