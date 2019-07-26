@@ -78,7 +78,7 @@ Day1:
         presenter: "Martin Raifer & Mapbox"
       - location: Small Lecture Room
         title: "Discussion: OSM Local Community Members Meeting"
-  - time: 2:45 PM
+  - time: 3:45 PM
     session:
       - location:
         title:
