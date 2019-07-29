@@ -17,7 +17,7 @@
             <start>{{ session.time }}</start>
             <duration>{{ s.duration }}</duration>
             <room>westlecture</room>
-            <slug>hotosm19-1001-opening</slug>
+            <slug>hotosm19-100{{ session_id }}</slug>
             <title>{{s.title}}</title>
             <subtitle/>
             <track/>
@@ -26,7 +26,7 @@
             <abstract/>
             <description/>
             <persons>
-              <person id="0">{{s.presenter}}</person>
+              <person id="0">{{s.presenter | escape}}</person>
             </persons>
             <links/>
           </event>{% endif %}{% endfor %}{% endfor %}{% endfor %}
@@ -37,7 +37,7 @@
           <start>{{ session.time }}</start>
           <duration>{{ s.duration }}</duration>
           <room>eastlecture</room>
-          <slug>hotosm19-1001-opening</slug>
+          <slug>hotosm19-100{{ session_id }}</slug>
           <title>{{s.title}}</title>
           <subtitle/>
           <track/>
@@ -46,7 +46,7 @@
           <abstract/>
           <description/>
           <persons>
-            <person id="0">{{s.presenter}}</person>
+            <person id="0">{{s.presenter | escape}}</person>
           </persons>
           <links/>
         </event>{% endif %}{% endfor %}{% endfor %}{% endfor %}
@@ -57,7 +57,7 @@
         <start>{{ session.time }}</start>
         <duration>{{ s.duration }}</duration>
         <room>eastlecture</room>
-        <slug>hotosm19-1001-opening</slug>
+        <slug>hotosm19-100{{ session_id }}</slug>
         <title>{{s.title}}</title>
         <subtitle/>
         <track/>
@@ -66,7 +66,69 @@
         <abstract/>
         <description/>
         <persons>
-          <person id="0">{{s.presenter}}</person>
+          <person id="0">{{s.presenter | escape}}</person>
+        </persons>
+        <links/>
+      </event>{% endif %}{% endfor %}{% endfor %}{% endfor %}
+  </room>
+  </day>
+  <day index="2" date="2019-09-20" start="2019-09-20T08:30:00" end="2019-09-20T18:00:00">
+      <room name="westlecture">{% for page in site.pages %}{{ if page.title == 'Program' }}{% for session in page.Day2 %}{% for s in session.session %}{% if s.location == 'West Lecture Room' %}{% capture session_id %}{% increment id %}{% endcapture %}
+          <event id="{{ session_id }}" guid="385033fe-dda1-555a-aca6-28dd05677c66">
+            <date>2019-09-20</date>
+            <start>{{ session.time }}</start>
+            <duration>{{ s.duration }}</duration>
+            <room>westlecture</room>
+            <slug>hotosm19-200{{ session_id }}</slug>
+            <title>{{s.title}}</title>
+            <subtitle/>
+            <track/>
+            <type/>
+            <language>en</language>
+            <abstract/>
+            <description/>
+            <persons>
+              <person id="0">{{s.presenter | escape}}</person>
+            </persons>
+            <links/>
+          </event>{% endif %}{% endfor %}{% endfor %}{% endfor %}
+    </room>
+    <room name="eastlecture">{% for page in site.pages %}{{ if page.title == 'Program' }}{% for session in page.Day2 %}{% for s in session.session %}{% if s.location == 'East Lecture Room' %}{% capture session_id %}{% increment id %}{% endcapture %}
+        <event id="{{ session_id }}" guid="385033fe-dda1-555a-aca6-28dd05677c66">
+          <date>2019-09-20</date>
+          <start>{{ session.time }}</start>
+          <duration>{{ s.duration }}</duration>
+          <room>eastlecture</room>
+          <slug>hotosm19-200{{ session_id }}</slug>
+          <title>{{s.title}}</title>
+          <subtitle/>
+          <track/>
+          <type/>
+          <language>en</language>
+          <abstract/>
+          <description/>
+          <persons>
+            <person id="0">{{s.presenter | escape}}</person>
+          </persons>
+          <links/>
+        </event>{% endif %}{% endfor %}{% endfor %}{% endfor %}
+  </room>
+  <room name="smalllecture">{% for page in site.pages %}{{ if page.title == 'Program' }}{% for session in page.Day2 %}{% for s in session.session %}{% if s.location == 'Small Lecture Room' %}{% capture session_id %}{% increment id %}{% endcapture %}
+      <event id="{{ session_id }}" guid="385033fe-dda1-555a-aca6-28dd05677c66">
+        <date>2019-09-20</date>
+        <start>{{ session.time }}</start>
+        <duration>{{ s.duration }}</duration>
+        <room>eastlecture</room>
+        <slug>hotosm19-200{{ session_id }}</slug>
+        <title>{{s.title}}</title>
+        <subtitle/>
+        <track/>
+        <type/>
+        <language>en</language>
+        <abstract/>
+        <description/>
+        <persons>
+          <person id="0">{{s.presenter | escape}}</person>
         </persons>
         <links/>
       </event>{% endif %}{% endfor %}{% endfor %}{% endfor %}
