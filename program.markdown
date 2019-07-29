@@ -153,7 +153,7 @@ Day2:
     session:
       - location: West Lecture Room
         title: "The METEOR Project"
-        presenter: Mhairi O'Hara & Kathmandu Living Labs
+        presenter: Kathmandu Living Labs & Ramani Huria
         duration: 00:45
       - location: East Lecture Room
         title: "MapAction, HOT and the Cyclone Idai Response / H2H Networks"
