@@ -81,7 +81,7 @@ Day1:
     session:
       - location: West Lecture Room
         title: "Workshop 5: The power of OpenStreetMap and the Red Cross and Red Crescent Movement to antizipate disasters"
-        presenter: Catalina & Stefan Scholtz
+        presenter: Catalina Jaime & Stefan Scholtz
         duration: 02:00
       - location: East Lecture Room
         title: "Workshop 6: After You Create OSM Data: Analysis and Building with Services"
