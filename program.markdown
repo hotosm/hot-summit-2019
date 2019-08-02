@@ -29,20 +29,13 @@ Day1:
         duration: 01:30
         presenter: "Jorge Martinez Garcia & Felix Delattre - HOT"
       - location: Small Lecture Room
-        title: "Discussion: Gender & Diversity in OSM Action"
+        title: "Discussions"
         duration: 00:45
-  - time: 10:15 AM
-    session:
-      - location:
-        title:
-        presenter:
-      - location: 
-        title:
-        presenter:
-      - location: Small Lecture Room
-        title: "Discussion: An Intro to Software Collaboration for Non-Developers"
-        presenter: "Wille Marcel & Ramya Ragupathy - HOT"
-        duration: 00:45
+        subsessions:
+          - title: "Discussion: Gender & Diversity in OSM Action"
+            presenter: Faciliated discussion
+          - title: "Discussion: An Intro to Software Collaboration for Non-Developers"
+            presenter: "Wille Marcel & Ramya Ragupathy - HOT"
   - time: 11:00 AM
     session:
       - location: Main Lobby
@@ -58,21 +51,13 @@ Day1:
         presenter: "Ed Neerhut & Chris Beddow - Mapillary"
         duration: 02:00
       - location: Small Lecture Room
-        title: "Discussion: Everyday Experiences with HOT"
-        presenter: "David Garcia & Martin Dittus - Aotearoa, New Zealand and UK"
+        title: "Discussions"
         duration: 01:00
-  - time: 12:30 PM
-    session:
-      - location:
-        title:
-        presenter:
-      - location:
-        title:
-        presenter:
-      - location: Small Lecture Room
-        title: "Discussion: YouthMappers"
-        presenter: Chad Blevins
-        duration: 01:00
+        subsessions:
+          - title: "Discussion: Everyday Experiences with HOT"
+            presenter: "David Garcia & Martin Dittus - Aotearoa, New Zealand and UK"
+          - title: "Discussion: YouthMappers"
+            presenter: Chad Blevins
   - time: 1:45 PM
     session:
       - location: Main Lobby
@@ -88,20 +73,13 @@ Day1:
         presenter: "Martin Raifer & Mapbox"
         duration: 02:00
       - location: Small Lecture Room
-        title: "Discussion: OSM Local Community Members Meeting"
+        title: "Discussions"
         duration: 01:00
-  - time: 3:45 PM
-    session:
-      - location:
-        title:
-        presenter:
-      - location:
-        title:
-        presenter:
-      - location: Small Lecture Room
-        title: "Discussion: HOT Voting Members Forum"
-        presenter: Closed to Voting Members
-        duration: 01:00
+        subsessions:
+          - title: "Discussion: OSM Local Community Members Meeting"
+            presenter: Facilitated discussion
+          - title: "Discussion: HOT Voting Members Forum"
+            presenter: Closed to Voting Members
   - time: 4:30 PM
     session:
       - location: TBD

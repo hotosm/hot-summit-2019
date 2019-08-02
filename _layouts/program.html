@@ -29,13 +29,21 @@ layout: default
           {% for s in session.session %}
           {% if s.title %}
           <div class="program-details">
-            {% if s.location %}
-            <p class="location">{{ s.location }}</p>
-            {% endif %}
-            <p class="title">{{ s.title }}</p>
-            {% if s.presenter %}
-                <p class="presenter">{{ s.presenter }}</p>
-            {% endif %}
+            {% if s.subsessions %}
+              <p class="location">{{ s.location }}</p>
+              {% for i in s.subsessions %}
+                <p class="title">{{ i.title }}</p>
+                {% if i.presenter %}<p class="presenter">{{ i.presenter }}</p>{% endif %}
+              {% endfor %}
+            {% else %}
+              {% if s.location %}
+              <p class="location">{{ s.location }}</p>
+              {% endif %}
+              <p class="title">{{ s.title }}</p>
+              {% if s.presenter %}
+                  <p class="presenter">{{ s.presenter }}</p>
+              {% endif %}
+              {% endif %}
           </div>
           {% endif %}
           {% endfor %}
@@ -56,13 +64,21 @@ layout: default
           {% for s in session.session %}
           {% if s.title %}
           <div class="program-details">
-            {% if s.location %}
-            <p class="location">{{ s.location }}</p>
-            {% endif %}
-            <p class="title">{{ s.title }}</p>
-            {% if s.presenter %}
-                <p class="presenter">{{ s.presenter }}</p>
-            {% endif %}
+            {% if s.subsessions %}
+              <p class="location">{{ s.location }}</p>
+              {% for i in s.subsessions %}
+                <p class="title">{{ i.title }}</p>
+                {% if i.presenter %}<p class="presenter">{{ i.presenter }}</p>{% endif %}
+              {% endfor %}
+            {% else %}
+              {% if s.location %}
+              <p class="location">{{ s.location }}</p>
+              {% endif %}
+              <p class="title">{{ s.title }}</p>
+              {% if s.presenter %}
+                  <p class="presenter">{{ s.presenter }}</p>
+              {% endif %}
+              {% endif %}
           </div>
           {% endif %}
           {% endfor %}
