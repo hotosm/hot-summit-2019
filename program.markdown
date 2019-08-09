@@ -81,7 +81,7 @@ Day1:
     session:
       - location: West Lecture Room
         title: "Workshop 5: The power of OpenStreetMap and the Red Cross and Red Crescent Movement to antizipate disasters"
-        presenter: Catalina Jaime & Stefan Scholtz
+        presenter: Catalina Jaime - Red Cross Climate Center & Stefan Scholtz - German Red Cross
         duration: 02:00
       - location: East Lecture Room
         title: "Workshop 6: After You Create OSM Data: Analysis and Building with Services"
@@ -146,8 +146,8 @@ Day2:
         presenter: Harsh Govind - Microsoft
         duration: 01:00
       - location: Small Lecture Room
-        title: "MAPAbabae II- Mapathon for VAWmapPH"
-        presenter: Arnalie Faye Vicario - Department of Social Welfare and Development (DSWD)
+        title: TBD
+        presenter: 
         duration: 01:00
   - time: 12:00 PM
     session:
@@ -161,7 +161,7 @@ Day2:
         duration: 00:45
       - location: Small Lecture Room
         title: "Mapillary 2020"
-        presenter: Brenna Higgins & Lindsey Higgins
+        presenter: Brenna Higgins & Lindsey Higgins - Mapillary
         duration: 00:45
   - time: 12:45 PM
     session:
@@ -183,7 +183,7 @@ Day2:
     session:
       - location: West Lecture Room
         title: "Integration of (digital) volunteers in disaster management "
-        presenter: Holger Ziehm, Yannic Schulte, & Ramian Fathi
+        presenter: Holger Ziehm, Yannic Schulte, & Ramian Fathi - ESRI/ VOST THW
         duration: 00:45
       - location: East Lecture Room
         title: "How do images get to mappers?"
