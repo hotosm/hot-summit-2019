@@ -1861,7 +1861,7 @@ em {
 
 
 .site-footer {
-  background-color: $red;
+  background-color: white;
   float: left;
   width: 100%;
   h4 {
@@ -1911,7 +1911,7 @@ em {
 .footer-group {
   padding: 16px;
   @media (min-width: $screen-sm) {
-    padding: 0 40px;
+    padding: 10px 40px;
   }
 }
 
