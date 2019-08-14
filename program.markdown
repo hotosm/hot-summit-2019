@@ -29,13 +29,14 @@ Day1:
         duration: 01:30
         presenter: "Jorge Martinez Garcia & Felix Delattre - HOT"
       - location: Small Lecture Room
-        title: "Discussions"
+        title: "Discussion Sessions"
         duration: 00:45
         subsessions:
-          - title: "Discussion: Gender & Diversity in OSM Action"
-            presenter: Faciliated discussion
-          - title: "Discussion: An Intro to Software Collaboration for Non-Developers"
+          - title: "An Intro to Software Collaboration for Non-Developers"
             presenter: "Wille Marcel & Ramya Ragupathy - HOT"
+          - title: "Gender & Diversity in OSM Action"
+            presenter: Faciliated discussion
+          
   - time: 11:00 AM
     session:
       - location: Main Lobby
@@ -51,7 +52,7 @@ Day1:
         presenter: "Ed Neerhut & Chris Beddow - Mapillary"
         duration: 02:00
       - location: Small Lecture Room
-        title: "Discussions"
+        title: "Discussion Sessions"
         duration: 01:00
         subsessions:
           - title: "Discussion: Everyday Experiences with HOT"
@@ -73,7 +74,7 @@ Day1:
         presenter: "Martin Raifer & Mapbox"
         duration: 02:00
       - location: Small Lecture Room
-        title: "Discussions"
+        title: "Discussion Sessions"
         duration: 01:00
         subsessions:
           - title: "Discussion: OSM Local Community Members Meeting"

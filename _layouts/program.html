@@ -31,9 +31,12 @@ layout: default
           <div class="program-details">
             {% if s.subsessions %}
               <p class="location">{{ s.location }}</p>
+              <p class="title">{{ s.title }}</p>
               {% for i in s.subsessions %}
-                <p class="title">{{ i.title }}</p>
-                {% if i.presenter %}<p class="presenter">{{ i.presenter }}</p>{% endif %}
+                <li>
+                  <p class="title">{{ i.title }}</p>
+                  {% if i.presenter %}<p class="presenter">{{ i.presenter }}</p>{% endif %}
+                </li>
               {% endfor %}
             {% else %}
               {% if s.location %}
