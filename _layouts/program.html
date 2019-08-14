@@ -32,12 +32,14 @@ layout: default
             {% if s.subsessions %}
               <p class="location">{{ s.location }}</p>
               <p class="title">{{ s.title }}</p>
+              <ul>
               {% for i in s.subsessions %}
                 <li>
                   <p class="title">{{ i.title }}</p>
                   {% if i.presenter %}<p class="presenter">{{ i.presenter }}</p>{% endif %}
                 </li>
               {% endfor %}
+              </ul>
             {% else %}
               {% if s.location %}
               <p class="location">{{ s.location }}</p>
