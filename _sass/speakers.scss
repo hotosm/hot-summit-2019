@@ -4,7 +4,7 @@
   grid-auto-rows: min-content;
   grid-gap: 16px;
   @media (min-width: $screen-xs) {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
     margin-bottom: 40px;
   }
