@@ -1,0 +1,24 @@
+<div class="module link-through project-module" href="{{ speaker.url }}">
+
+  <div class="module-details">
+
+    <div class="module-text project-header-meta">
+
+      <h3>{{ speaker.title }}</h3>
+
+      <p class="project-involvement">
+        {{ speaker.organization }}
+      </p>
+    </div>
+
+  </div>
+
+  <div class="module-image">
+    {% if speaker.image %}
+      <img {% if speaker['Is image top aligned'] %} style="object-position: top center" {% endif %} src="{{speaker.image}}">
+    {% else %}
+      <img style="object-position: top center" src="/images/speakers/person.jpg">
+    {% endif %}
+  </div>
+
+</div>
