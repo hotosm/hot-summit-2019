@@ -107,6 +107,10 @@ Day1:
       - location: TBD
         title: HOT Sponsored Event
         presenter:
+  - time: 6:00 PM
+    session:
+      - location: Heidelberg University
+        title: Social event (free for conference attendees)
 
 Day2:
   - time: 8:30 AM
@@ -226,4 +230,13 @@ Day2:
       - location: West Lecture Room
         title: "Close/Wrap-up + Evening Brief"
         duration: 00:30
+  - time: 7:00 PM
+    session:
+      - location: Haberhalle
+        title: Social event in partnership with State of the Map
+        duration: 02:00
 ---
+
+On September 19-20, 2019 HOT will convene for a global community meeting. The entire HOT community will come together to showcase projects, discuss and share ideas, and learn how mapping projects can have impact on the lives beyond the people mapping and create better disaster and development outcomes.
+  * **Thursday, Sept 19** will focus on skillbuilding workshops for all levels and in-depth discussions within the HOT Community and partners
+  * **Friday, Sept 20** will consist of lightning talks, interesting presentations and panels on new approaches, and tools for OpenStreetMap for humanitarian mapping
