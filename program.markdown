@@ -103,8 +103,8 @@ Day2:
         title: TBD
         duration: 00:45
       - location: East Lecture Room
-        title: "IDPs & Refugees, Mapping People in Crisis"
-        presenter: "HOT Uganda/Aruba"
+        title: "Resilient Networks, OSM and Open Data to Achieve the SDGs" 
+        presenter: Celina Agaton - MapPH 
         duration: 00:45
       - location: Small Lecture Room
         title: "Refugee and IDP settlement mapping w/ HOT data, machine learning, and crowd-sourcing"
@@ -117,8 +117,8 @@ Day2:
   - time: 11:00 AM
     session:
       - location: West Lecture Room
-        title: "Resilient Networks, OSM and Open Data to Achieve the SDGs"
-        presenter: Celina Agaton - MapPH
+        title: "IDPs & Refugees, Mapping People in Crisis"
+        presenter: "HOT Uganda/Aruba"
         duration: 01:00
       - location: East Lecture Room
         title: "What to know before starting the next Machine Learning project?"
