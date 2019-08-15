@@ -66,7 +66,7 @@ Day1:
   - time: 2:45 PM
     session:
       - location: West Lecture Room
-        title: "Workshop 5: The power of OpenStreetMap and the Red Cross and Red Crescent Movement to antizipate disasters"
+        title: "Workshop 5: The power of OpenStreetMap and the Red Cross and Red Crescent Movement to anticipate disasters"
         presenter: Catalina Jaime - Red Cross Red Crescent Climate Center & Stefan Scholz - German Red Cross
         duration: 02:00
       - location: East Lecture Room
