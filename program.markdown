@@ -67,7 +67,7 @@ Day1:
     session:
       - location: West Lecture Room
         title: "Workshop 5: The power of OpenStreetMap and the Red Cross and Red Crescent Movement to antizipate disasters"
-        presenter: Catalina Jaime - Red Cross Climate Center & Stefan Scholz - German Red Cross
+        presenter: Catalina Jaime - Red Cross Red Crescent Climate Center & Stefan Scholz - German Red Cross
         duration: 02:00
       - location: East Lecture Room
         title: "Workshop 6: After You Create OSM Data: Analysis and Building with Services"
@@ -139,7 +139,7 @@ Day2:
         presenter: Steve Penson - MapAction & Rebecca Petras - H2H Network
         duration: 00:45
       - location: Small Lecture Room
-        title: "Mapillary 2020"
+        title: "#map2020: Addressing Humanitarian Challenges with Street-Level Imagery"
         presenter: Brenna Higgins & Lindsey Higgins - Mapillary
         duration: 00:45
   - time: 12:45 PM
