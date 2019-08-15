@@ -1,5 +1,5 @@
 ---
-title: Felix Delattre
+title: Shamilah Ssekandi Nassozi
 organization: Humanitarian OpenStreetMap Team
-country: Germany
+country: Uganda
 ---

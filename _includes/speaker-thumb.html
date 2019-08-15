@@ -1,4 +1,6 @@
-<div class="module link-through project-module" href="{{ speaker.url }}">
+{% capture speakerid %}{{ speaker.id | remove: "/speakers/" }}{% endcapture %}
+
+<div class="module link-through project-module" id="{{ speakerid }}">
 
   <div class="module-details">
 
@@ -11,7 +13,11 @@
       </p>
 
       <p class="project-countries">
+        {% if speaker.country %}
+          <span class="project-country">{{speaker.country}}</span>
+        {% else %}
           <span class="project-country">Global</span>
+        {% endif %}
         </p>
     </div>
 

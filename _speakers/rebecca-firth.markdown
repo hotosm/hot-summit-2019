@@ -1,5 +1,5 @@
 ---
-title: Felix Delattre
+title: Rebecca Firth
 organization: Humanitarian OpenStreetMap Team
-country: Germany
+country: Peru
 ---
