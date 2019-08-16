@@ -116,6 +116,9 @@
     }
   }
   @media (max-width: $screen-sm) {
+    h2 {
+        font-size: 26px;
+      }
     &.fixed-nav {
       position: fixed;
       background-color: $white;
