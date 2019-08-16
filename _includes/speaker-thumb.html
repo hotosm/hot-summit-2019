@@ -8,11 +8,11 @@
 
       <h3>{{ speaker.title }}</h3>
 
-      <p class="project-involvement">
+      <p class="project-involvement speaker-organization">
         {{ speaker.organization }}
       </p>
 
-      <p class="project-countries">
+      <p class="project-countries speaker-country">
         {% if speaker.country %}
           <span class="project-country">{{speaker.country}}</span>
         {% else %}
@@ -25,7 +25,7 @@
 
   <div class="module-image">
     {% if speaker.image %}
-      <img {% if speaker['Is image top aligned'] %} style="object-position: top center" {% endif %} src="{{speaker.image}}">
+      <img style="object-position: top center" src="{{speaker.image}}">
     {% else %}
       <img style="object-position: top center" src="/images/speakers/person.jpg">
     {% endif %}

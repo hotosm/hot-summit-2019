@@ -1,3 +1,19 @@
+.speaker-organization {
+  color: $orange;
+  display: inline-block;
+  font-weight: bold;
+  &:after {
+    content: '·';
+    color: $blue-grey;
+    margin-left: 0px;
+    display: inline-block;
+  }
+}
+
+.speaker-country {
+  margin-left: 0px;
+}
+
 .speaker-index-all {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
