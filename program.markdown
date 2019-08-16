@@ -27,7 +27,7 @@ Day1:
       - location: East Lecture Room
         title: "Workshop 2: Hands-on Image Processing w/ Machine Learning for Humanitarian Action (And Beyond)"
         duration: 01:30
-        presenter: "Jorge Martinez Garcia & Felix Delattre - HOT"
+        presenter: "Jorge Martinez & Felix Delattre - HOT"
       - location: Small Lecture Room
         title: "Discussion Sessions"
         duration: 00:45
