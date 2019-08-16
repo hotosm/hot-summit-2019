@@ -1,0 +1,55 @@
+.speaker-organization {
+  color: $orange;
+  display: inline-block;
+  font-weight: bold;
+  &:after {
+    content: '·';
+    color: $blue-grey;
+    margin-left: 0px;
+    display: inline-block;
+  }
+}
+
+.speaker-country {
+  margin-left: 0px;
+}
+
+.speaker-index-all {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: min-content;
+  grid-gap: 16px;
+  @media (min-width: $screen-xs) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    margin-bottom: 40px;
+  }
+  .project-module {
+    display: grid;
+    grid-template-rows: auto 240px;
+    margin-bottom: 0;
+    box-shadow: $default-box-shadow;
+    &:hover {
+      box-shadow: $hover-box-shadow;
+    }
+    .module-details {
+      padding: 20px 24px;
+      h3 {
+        @media (min-width: $screen-sm) {
+          font-size: 1.5rem;
+        }
+      }
+      @media (max-width: $screen-xs) {
+        padding: 14px 16px;
+      }
+    }
+    .module-text {
+      padding-right: 0;
+      margin-bottom: 0;
+    }
+    .module-image {
+      max-height: 240px;
+      position: relative;
+    }
+  }
+}

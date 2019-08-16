@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<div class="page container">
+
+  <header class="page-header">
+    <h1>{{ page.title }}</h1>
+    <div class="hr-h"></div>
+  </header>
+
+  <div class="page-layout-body">
+    <div class="page-content">
+      <div class="article">
+        {% if page['Intro Text'] %}
+          <p class="news-summary">{{ page['Intro Text' ]}}</p>
+        {% endif %}
+        
+        {{ content }}
+      </div>
+
+      <div class="speaker-index-all support-programs">
+
+      {% for speaker in site.speakers %}
+          {% include speaker-thumb.html %}
+      {% endfor %}
+      </div>
+
+    </div>
+
+    <aside class="meta">
+
+      {% if page['Page Contact'] %}
+        <p class="meta-p">{{ page['Page Contact']['Text'] }}</p>
+        <div class="sticky-wrap">
+          <a class="btn btn-primary btn-block btn-chevron" href="mailto:{{ page['Page Contact']['Contact Email'] }}">{{ page['Page Contact']['Label'] }}</a>
+        </div>
+      {% endif %}
+
+      {% if page['Page Link'] %}
+        <p class="meta-p">{{ page['Page Link']['Text'] }}</p>
+        <div class="sticky-wrap">
+          <a class="btn btn-primary btn-block btn-chevron" href="{{ page['Page Link']['Link'] }}">{{ page['Page Link']['Label'] }}</a>
+        </div>
+      {% endif %}
+
+
+    </aside>
+
+  </div>
+
+</div>

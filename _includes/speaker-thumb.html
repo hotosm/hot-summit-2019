@@ -1,0 +1,34 @@
+{% capture speakerid %}{{ speaker.id | remove: "/speakers/" }}{% endcapture %}
+
+<div class="module link-through project-module" id="{{ speakerid }}">
+
+  <div class="module-details">
+
+    <div class="module-text project-header-meta">
+
+      <h3>{{ speaker.title }}</h3>
+
+      <p class="project-involvement speaker-organization">
+        {{ speaker.organization }}
+      </p>
+
+      <p class="project-countries speaker-country">
+        {% if speaker.country %}
+          <span class="project-country">{{speaker.country}}</span>
+        {% else %}
+          <span class="project-country">Global</span>
+        {% endif %}
+        </p>
+    </div>
+
+  </div>
+
+  <div class="module-image">
+    {% if speaker.image %}
+      <img style="object-position: top center" src="{{speaker.image}}">
+    {% else %}
+      <img style="object-position: top center" src="/images/speakers/person.jpg">
+    {% endif %}
+  </div>
+
+</div>
