@@ -156,7 +156,7 @@ Day2:
         duration: 00:45
   - time: 10:30 AM
     session:
-      - location: West Lecture Room
+      - location: Main Lobby
         title: Coffee Break
   - time: 11:00 AM
     session:
