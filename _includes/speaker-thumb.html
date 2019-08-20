@@ -8,17 +8,23 @@
 
       <h3>{{ speaker.title }}</h3>
 
-      <p class="project-involvement speaker-organization">
+      <p class="project-status speaker-organization">
         {{ speaker.organization }}
       </p>
 
       <p class="project-countries speaker-country">
         {% if speaker.country %}
-          <span class="project-country">{{speaker.country}}</span>
+          <span class="project-country speaker-country">{{speaker.country}}</span>
         {% else %}
-          <span class="project-country">Global</span>
+          <span class="project-country speaker-country">Global</span>
         {% endif %}
         </p>
+
+        {% if speaker.talk %}
+        <p class="project-involvement speaker-talk">
+          {{speaker.talk}}
+        </p>
+        {% endif %}
     </div>
 
   </div>

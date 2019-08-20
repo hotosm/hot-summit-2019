@@ -12,6 +12,15 @@
 
 .speaker-country {
   margin-left: 0px;
+  color: $blue-grey;
+}
+
+.speaker-talk {
+  margin-top: 8px;
+  color: $red;
+  &:after {
+    content: '';
+  }
 }
 
 .speaker-index-all {
