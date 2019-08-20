@@ -171,5 +171,14 @@
         letter-spacing: 0.67px;
         color: #d73f30;
         margin-bottom: 44px;
+
+        a {
+          display: inline-block;
+          text-decoration: none;
+          color: #d73f30;
+        }
+        a:hover {
+          color: #68707f;
+        }
       } 
 }

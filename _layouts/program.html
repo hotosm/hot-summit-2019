@@ -40,7 +40,18 @@ layout: default
               {% for i in s.subsessions %}
                 <li>
                   <p class="title">{{ i.title }}</p>
-                  {% if i.presenter %}<p class="presenter">{% for p in i.presenter %} {{ p.people | join: " & " }} {% if p.organization %} {% if p.people %}{{ p.organization | prepend: "– " }}{% else %} {{ p.organization }}{% endif %}{% endif %} {% if forloop.length > 1 and forloop.last == false %} {{ "&" | escape }} {% endif %} {% endfor %}</p>{% endif %}
+                  {% if i.presenter %}<p class="presenter">{% for p in i.presenter %}{% for person in p.people %}
+                  <a href="{% for speaker in site.speakers %}{% if speaker.title == person %}{{ speaker.url }}{% endif %}{% endfor %}" >{{ person }}</a>{% unless forloop.last %} & {% endunless %}
+                  {% endfor %}
+                  {% if p.organization %}
+                    {% if p.people %}
+                      {{ p.organization | prepend: "– " }}
+                    {% else %}
+                      {{ p.organization }}
+                    {% endif %}
+                  {% endif %}
+                  {% if forloop.length > 1 and forloop.last == false %} {{ "&" | escape }} {% endif %}
+                  {% endfor %}</p>{% endif %}
                 </li>
               {% endfor %}
               </ul>
@@ -50,7 +61,20 @@ layout: default
               {% endif %}
               <p class="title">{{ s.title }}</p>
               {% if s.presenter %}
-                <p class="presenter">{% for p in s.presenter %} {{ p.people | join: " & " }} {% if p.organization %} {% if p.people %}{{ p.organization | prepend: "– " }}{% else %} {{ p.organization }}{% endif %}{% endif %} {% if forloop.length > 1 and forloop.last == false %} {{ "&" | escape }} {% endif %} {% endfor %}</p>
+                <p class="presenter">
+                  {% for p in s.presenter %}{% for person in p.people %}
+                  <a href="{% for speaker in site.speakers %}{% if speaker.title == person %}{{ speaker.url }}{% endif %}{% endfor %}" >{{ person }}</a>{% unless forloop.last %} & {% endunless %}
+                  {% endfor %}
+                  {% if p.organization %}
+                    {% if p.people %}
+                      {{ p.organization | prepend: "– " }}
+                    {% else %}
+                      {{ p.organization }}
+                    {% endif %}
+                  {% endif %}
+                  {% if forloop.length > 1 and forloop.last == false %} {{ "&" | escape }} {% endif %}
+                  {% endfor %}
+                </p>
               {% endif %}
               {% endif %}
           </div>
@@ -75,17 +99,46 @@ layout: default
           <div class="program-details">
             {% if s.subsessions %}
               <p class="location">{{ s.location }}</p>
+              <p class="title">{{ s.title }}</p>
+              <ul>
               {% for i in s.subsessions %}
-                <p class="title">{{ i.title }}</p>
-                {% if i.presenter %}<p class="presenter">{% for p in i.presenter %} {{ p.people | join: " & " }} {% if p.organization %} {% if p.people %}{{ p.organization | prepend: "– " }}{% else %} {{ p.organization }}{% endif %}{% endif %} {% if forloop.length > 1 and forloop.last == false %} {{ "&" | escape }} {% endif %} {% endfor %}</p>{% endif %}
+                <li>
+                  <p class="title">{{ i.title }}</p>
+                  {% if i.presenter %}<p class="presenter">{% for p in i.presenter %}{% for person in p.people %}
+                  <a href="{% for speaker in site.speakers %}{% if speaker.title == person %}{{ speaker.url }}{% endif %}{% endfor %}" >{{ person }}</a>{% unless forloop.last %} & {% endunless %}
+                  {% endfor %}
+                  {% if p.organization %}
+                    {% if p.people %}
+                      {{ p.organization | prepend: "– " }}
+                    {% else %}
+                      {{ p.organization }}
+                    {% endif %}
+                  {% endif %}
+                  {% if forloop.length > 1 and forloop.last == false %} {{ "&" | escape }} {% endif %}
+                  {% endfor %}</p>{% endif %}
+                </li>
               {% endfor %}
+              </ul>
             {% else %}
               {% if s.location %}
               <p class="location">{{ s.location }}</p>
               {% endif %}
               <p class="title">{{ s.title }}</p>
               {% if s.presenter %}
-                <p class="presenter">{% for p in s.presenter %} {{ p.people | join: " & " }} {% if p.organization %} {% if p.people %}{{ p.organization | prepend: "– " }}{% else %} {{ p.organization }}{% endif %}{% endif %} {% if forloop.length > 1 and forloop.last == false %} {{ "&" | escape }} {% endif %} {% endfor %}</p>
+                <p class="presenter">
+                  {% for p in s.presenter %}{% for person in p.people %}
+                  <a href="{% for speaker in site.speakers %}{% if speaker.title == person %}{{ speaker.url }}{% endif %}{% endfor %}" >{{ person }}</a>{% unless forloop.last %} & {% endunless %}
+                  {% endfor %}
+                  {% if p.organization %}
+                    {% if p.people %}
+                      {{ p.organization | prepend: "– " }}
+                    {% else %}
+                      {{ p.organization }}
+                    {% endif %}
+                  {% endif %}
+                  {% if forloop.length > 1 and forloop.last == false %} {{ "&" | escape }} {% endif %}
+                  {% endfor %}
+                </p>
             {% endif %}
               {% endif %}
           </div>
