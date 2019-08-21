@@ -16,8 +16,13 @@ Day1:
   - time: 9:00 AM
     session:
       - location: West Lecture Room
-        title: "Welcome Remarks & Lightning Talks"
-        duration: 00:30
+        title: "Welcome Remarks"
+        duration: 00:15
+  - time: 9:15 AM
+    session: 
+      - location: West Lecture Room
+        title: "Lightning Talks"
+        duration: 00:15
   - time: 9:30 AM
     session:
       - location: West Lecture Room
@@ -57,7 +62,7 @@ Day1:
   - time: 11:00 AM
     session:
       - location: Main Lobby
-        title: "Coffee / Networking Break"
+        title: "Coffee / Community Board"
   - time: 11:30 AM
     session:
       - location: West Lecture Room
@@ -88,23 +93,23 @@ Day1:
         abstract: "Technological approaches tend to be hyped up and wrapped in discourses like ‘innovation’, while missing out on sharing stories of the ordinary, minor, and subtle matters involved in mapping. HOT has a tradition of trying to avoid such traps and do humanitarian work better by helping to democratise, diversify and decolonise mapping. Ethically, we need continue to expand and deepen this practice. But how? This discussion will provide a friendly space for our community to share stories of being a humanitarian mapping volunteer – and the everyday experiences and challenges we face."
         duration: 02:00
       - location: Small Lecture Room
-        title: "Discussion: YouthMappers"
+        title: "Discussion: YouthMappers Regional Ambassadors"
         presenter: 
           - people:
               - Chad Blevins
         duration: 01:00
-  - time: 1:45 PM
+  - time: 1:30 PM
     session:
-      - location: Main Lobby
+      - location: Cafeteria
         title: Lunch 
-  - time: 2:45 PM
+  - time: 2:30 PM
     session:
       - location: Main Lobby
-        title: Global OSM
+        title: Sponsor Space / Global OSM
   - time: 3:15 PM
     session:
-      - location: West Lecture Room
-        title: "Workshop 7: How to Use OpenStreetMap Data for Humanitarian Services"
+      - location: Small Lecture Room
+        title: "Workshop 7: After You Create OSM Data: Analysis and Building with Services"
         presenter: 
           - people:
               - Martin Raifer
@@ -112,19 +117,17 @@ Day1:
           - organization: Mapbox
         abstract: "Humanitarian and emergency work require quick and easy access to OpenStreetMap and related data. Responders often have to quickly analyse data to understand the number of households close to a school or calculate average distances to a school or hospital. In this workshop Mapbox, GIScience Research Group, and Heidelberg Institute for Geoinformation Technology (HeiGIT) will share tools and approaches for using OpenStreetMap data for humanitarian services. You will come away from the workshop with a thorough understanding, and resources to learn more, of how to pull OpenStreetMap data into services to facilitate decision making and informed action. This collaborative workshop is based on our experiences building and using tools like ohsome for analysis and data extraction, openrouteservice and Mapbox Traffic APIs, OSMCha, visualization tools and more."
         duration: 02:00
-      - location: East Lecture Room
+      - location: West Lecture Room
         title: "Workshop 8 [Sponsored]: Using OpenStreetMap in the Field: Offline Vector-file-format for Humanitarian Field Workers"
         presenter: 
           - organization: ESRI
         abstract: "Humanitarians often work in environments where they need easily accessible, offline maps. This workshop will show how to download OpenStreetMap in a vector-tile-format onto your mobile device, so it takes up little memory, but maintains good visual quality. We will work with the OpenStreetMap Vector Basemap, set up in cooperation with the OpenStreetMap Foundation and hosted by Esri. You will get hands-on experience in: Preparing your area of interest of the OpenStreetMap Vector Basemap; Exporting to a mobile device via pre-planned workflow or on-demand workflow; Using with Collector"
         duration: 02:00
-      - location: Small Lecture Room
+      - location: East Lecture Room
         title: "Workshop 9 [Sponsored]: Hands On Experience Extracting Meaningful OSM Data by Using Amazon Athena with AWS Public Datasets"
         presenter:
           - people:
               - Grace Kitzmiller
-            organization: AWS
-          - people:
               - Ana Visneski
             organization: AWS
         duration: 01:00
@@ -140,7 +143,7 @@ Day1:
         presenter:
   - time: 7:30 PM
     session:
-      - location: Heidelberg University
+      - location: Internationales Wissenschaftsforum Heidelberg
         title: HOT Sponsored Social Event
 
 Day2:
@@ -151,7 +154,7 @@ Day2:
   - time: 9:00 AM
     session:
       - location: West Lecture Room
-        title: "Keynote & Welcome"
+        title: "Welcome & Keynote"
         presenter: 
           - people:
               - Catalina Jaime
@@ -202,6 +205,7 @@ Day2:
         presenter:
           - people: 
               - Harsh Govind
+              - Nikola Trifunovic
             organization: Microsoft
         abstract: "Microsoft is helping create open buildings data for Tanzania and Uganda by combining powers of volunteer humanitarian mappers, machine learning techniques and computation at scale. Deep learning methods applied to satellite imagery enables features to be detected at scale across large areas. The proposal is to get members of the technical team to discuss learnings, key challenges and findings with a broader audience. The efficiencies gained with these processes are huge and with more such efforts expected in future - sharing the knowledge gained will be beneficial to the HOT community."
         duration: 00:45
@@ -224,7 +228,7 @@ Day2:
   - time: 11:00 AM
     session:
       - location: Main Lobby
-        title: Coffee Break
+        title: Coffee Break / Sponsor Space
   - time: 11:30 AM
     session:
       - location: West Lecture Room
@@ -235,7 +239,10 @@ Day2:
             organization: HOT
           - people:
               - "Garauv Thapa"
-            organization: Kathmandu Living Labs  
+            organization: Kathmandu Living Labs
+          - people: 
+              - Emmanuel Kombe
+            organization: OpenMap Development - Tanzania
         duration: 00:45
       - location: East Lecture Room
         title: "IDPs & Refugees, Mapping People in Crisis"
@@ -245,6 +252,9 @@ Day2:
       - location: Small Lecture Room
         title: TBD
         presenter: 
+          - people:
+              - Chad Hendrix
+            organization: HDX
         duration: 00:45
   - time: 12:30 PM
     session:
@@ -279,11 +289,11 @@ Day2:
         duration: 00:45
   - time: 01:15 PM
     session:
-      - location: Main Lobby
+      - location: Cafeteria
         title: Lunch
   - time: 02:30 PM
     session:
-      - location: Main Lobby
+      - location: Outside Chemistry Building
         title: HOT Summit Photo
   - time: 2:45 PM
     session:
@@ -316,7 +326,7 @@ Day2:
   - time: 3:30 PM
     session:
       - location: Main Lobby
-        title: Coffee
+        title: Coffee Break / Sponsor Space
   - time: 4:00 PM
     session:
       - location: West Lecture Room
@@ -324,8 +334,6 @@ Day2:
         presenter: 
           - people: 
               - Grace Kitzmiller
-            organization: AWS
-          - people:
               - Ana Visneski
             organization: AWS
         abstract: "Join the AWS Disaster Response Program as they discuss disaster response user needs, how they are using open source mapping, and exhibit the Element 84 prototype disaster response pipeline for field data management. Learn how using an Amazon Snowball Edge preloaded with critical information, including reach-back capabilities can help first responders update data from the field from in-situ sources such as drones."
@@ -335,8 +343,6 @@ Day2:
         presenter: 
           - people: 
               - Christopher Klaiber
-            organization: Facebook
-          - people:
               - Zack LaVergne
             organization: Facebook
         abstract: "With AI assistance, Facebook mappers have recently mapped more than 300,000 miles of roads in Thailand in only 18 months, and more than 90 percent of missing roads in Indonesia. Without AI assistance, this would have taken an estimated three to five years longer. Now, Facebook has made this technology available for everyone to use through Map With AI (https://mapwith.ai) and RapiD. The Map With AI service includes access to AI-generated road mappings in Afghanistan, Bangladesh, Indonesia, Mexico, Nigeria, Tanzania, and Uganda, with more countries rolling out over time. The RapiD editor builds on this service. RapiD is an enhanced version of the popular OpenStreetMap editing tool iD designed to make adding and editing roads quick and simple for anyone to use; it also includes data integrity checks to ensure that new map edits are consistent and accurate."
@@ -347,6 +353,7 @@ Day2:
           - people: 
               - Jess Bergmann
             organization: HOT
+          - organization: YouthMappers
         duration: 00:45
   - time: 5:00 PM
     session:
@@ -380,9 +387,9 @@ Day2:
       - location: West Lecture Room
         title: "Close/Wrap-up + Evening Brief"
         duration: 00:15
-  - time: 7:00 PM
+  - time: 6:00 PM
     session:
-      - location: Haberhalle
+      - location: Marstall
         title: Social event in partnership with State of the Map
         duration: 02:00
 ---
