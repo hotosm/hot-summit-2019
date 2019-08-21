@@ -231,7 +231,7 @@ em {
   }
   .news-summary {
     font-size: 1.125rem;
-    color: $red;
+    color: $blue-dark;
     padding-bottom: 32px;
     border-bottom: 1px solid $border-color;
     margin-bottom: 32px;
@@ -2379,7 +2379,8 @@ em {
 }
 
 .project-country {
-  color: $red;
+  color: $blue-light;
+  text-transform: uppercase;
   &:after {
     content: ', ';
     text-decoration: none;

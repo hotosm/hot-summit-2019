@@ -41,7 +41,7 @@
   p.time {
       font-size: 26px;
       letter-spacing: 0.81px;
-      color: #2c3038;
+      color: $blue-dark;
   }
 }
 
@@ -147,7 +147,7 @@
           font-stretch: normal;
           line-height: normal;
           letter-spacing: 0.53px;
-          color: #68707f;
+          color: $blue-grey;
           margin-bottom: 8px;
           padding: 6px 0px 0px 0px;
       }
@@ -158,7 +158,7 @@
         font-stretch: normal;
         line-height: normal;
         letter-spacing: 0.67px;
-        color: #2c3038;
+        color: #blue-dark;
         margin-bottom: 8px;
       }
 
@@ -169,20 +169,20 @@
         font-stretch: normal;
         line-height: normal;
         letter-spacing: 0.67px;
-        color: #d73f30;
+        color: $blue-grey;
         margin-bottom: 44px;
 
         a {
           display: inline-block;
           text-decoration: none;
-          color: #d73f30;
+          color: $red;
         }
         a:hover {
-          color: #68707f;
+          color: $blue-dark;
         }
       }
     details {
-      color: #68707f;
+      color: $red;
       margin-bottom: 18px;
       cursor: pointer;
       font-size: 16px;
@@ -200,5 +200,8 @@
         letter-spacing: 0.53px;
         cursor: auto;
       }
+    }
+    details:hover {
+      color: $blue-dark;
     }
 }
