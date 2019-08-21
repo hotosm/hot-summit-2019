@@ -40,6 +40,12 @@ layout: default
               {% for i in s.subsessions %}
                 <li>
                   <p class="title">{{ i.title }}</p>
+                  {% if i.abstract %}
+                  <details>
+                    <summary>Read abstract</summary>
+                    <p>{{ i.abstract }}</p>
+                  </details>
+                  {% endif %}
                   {% if i.presenter %}<p class="presenter">{% for p in i.presenter %}{% for person in p.people %}
                   <a href="{% for speaker in site.speakers %}{% if speaker.title == person %}{{ speaker.url }}{% endif %}{% endfor %}" >{{ person }}</a>{% unless forloop.last %} & {% endunless %}
                   {% endfor %}
@@ -60,6 +66,12 @@ layout: default
               <p class="location">{{ s.location }}</p>
               {% endif %}
               <p class="title">{{ s.title }}</p>
+              {% if s.abstract %}
+              <details>
+                <summary>Read abstract</summary>
+                <p>{{ s.abstract }}</p>
+              </details>
+              {% endif %}
               {% if s.presenter %}
                 <p class="presenter">
                   {% for p in s.presenter %}{% for person in p.people %}
@@ -104,6 +116,12 @@ layout: default
               {% for i in s.subsessions %}
                 <li>
                   <p class="title">{{ i.title }}</p>
+                  {% if i.abstract %}
+                  <details>
+                    <summary>Read abstract</summary>
+                    <p>{{ i.abstract }}</p>
+                  </details>
+                  {% endif %}
                   {% if i.presenter %}<p class="presenter">{% for p in i.presenter %}{% for person in p.people %}
                   <a href="{% for speaker in site.speakers %}{% if speaker.title == person %}{{ speaker.url }}{% endif %}{% endfor %}" >{{ person }}</a>{% unless forloop.last %} & {% endunless %}
                   {% endfor %}
@@ -124,6 +142,12 @@ layout: default
               <p class="location">{{ s.location }}</p>
               {% endif %}
               <p class="title">{{ s.title }}</p>
+              {% if s.abstract %}
+              <details>
+                <summary>Read abstract</summary>
+                <p>{{ s.abstract }}</p>
+              </details>
+              {% endif %}
               {% if s.presenter %}
                 <p class="presenter">
                   {% for p in s.presenter %}{% for person in p.people %}
