@@ -1,5 +1,5 @@
 ---
-title: Jorge Martinez Garcia
+title: Jorge Martinez
 organization: Humanitarian OpenStreetMap Team
 country: Colombia
 talk: "Using Machine Learning to Improve Humanitarian Action"
