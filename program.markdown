@@ -302,8 +302,7 @@ Day2:
         presenter: 
           - people:
             - Holger Ziehm
-            - Yannic Schulte
-            - Ramian Fathi
+            - Volker Tondorf
             organization: ESRI/ VOST THW
         abstract: "This talk will share details of VOST. This is a trusted network of digital volunteers as part of a GO: therefore established and formalized organizational structures, as well as experience and training in civil protection. This presentation will provide a short introduction of VOST, KUBAS (a tool for integration of spontaneous volunteers) and Esri. VOST will share how they have worked with government in open mapping, as well as with trusted volunteers. What can we learn from localization and visualization of social media data and past deployments? It will discuss mapping approaches from ESRI, including the presentation of the Disaster Response Program (DRP) and OpenStreetMap data."
         duration: 00:45
