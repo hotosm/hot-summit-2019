@@ -129,6 +129,7 @@ Day1:
           - people:
               - Grace Kitzmiller       
             organization: AWS
+          - people:
               - Jennings Anderson
             organization: University of Colorado Boulder
         abstract:  "Learn how to use Amazon Athena with AWS Public Datasets to query large amounts of OSM data and extract meaningful results. We will explore the maintenance behavior of contributors after HOT mapping activations and learn how the map gets maintained, what happens after validation, if the data grows stale, and if a local community emerges. This 200 level workshop is hands on and requires familiarity with SQL. Familiarity with data science tools such as Python and Jupyter Notebooks is helpful, but not required. Sample code will be made available at the state that participants can modify and ask their own questions of the data." 
