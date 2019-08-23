@@ -127,9 +127,10 @@ Day1:
         title: "Workshop 9 [Sponsored]: Hands On Experience Extracting Meaningful OSM Data by Using Amazon Athena with AWS Public Datasets"
         presenter:
           - people:
-              - Grace Kitzmiller
-              - Ana Visneski
+              - Grace Kitzmiller       
             organization: AWS
+              - Jennings Anderson
+            organization: University of Colorado Boulder
         duration: 01:00
   - time: 5:00 PM
     session:
