@@ -137,10 +137,6 @@ Day1:
         title: "HOT Voting Members Forum"
         presenter: [Closed Session]
         duration: 01:00
-  - time: 7:00 PM
-    session:
-      - title: Volunteers to Social Event
-        presenter:
   - time: 7:30 PM
     session:
       - location: Internationales Wissenschaftsforum Heidelberg
