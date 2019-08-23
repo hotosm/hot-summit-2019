@@ -135,7 +135,7 @@ Day1:
     session:
       - location: Small Lecture Room
         title: "HOT Voting Members Forum"
-        presenter: [Closed Session]
+        presenter: Closed Session
         duration: 01:00
   - time: 7:30 PM
     session:
@@ -167,8 +167,8 @@ Day2:
           - people:
               - Jinal Foflia
             organization: Grab
-        duration: 00:15
-      - location: East Lecture Room
+        duration: 00:05
+      - location: West Lecture Room
         title: "Lightning Talks: Creating a global health facilities platform with OSM data"
         presenter: 
           - people:
@@ -177,7 +177,7 @@ Day2:
           - people:
               - Mark Herringer
             organization: Healthsites.io
-        duration: 00:15
+        duration: 00:05
   - time: 9:45 AM
     session:
       - location: West Lecture Room
