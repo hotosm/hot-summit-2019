@@ -131,6 +131,7 @@ Day1:
             organization: AWS
               - Jennings Anderson
             organization: University of Colorado Boulder
+        abstract:  "Learn how to use Amazon Athena with AWS Public Datasets to query large amounts of OSM data and extract meaningful results. We will explore the maintenance behavior of contributors after HOT mapping activations and learn how the map gets maintained, what happens after validation, if the data grows stale, and if a local community emerges. This 200 level workshop is hands on and requires familiarity with SQL. Familiarity with data science tools such as Python and Jupyter Notebooks is helpful, but not required. Sample code will be made available at the state that participants can modify and ask their own questions of the data." 
         duration: 01:00
   - time: 5:00 PM
     session:
@@ -229,17 +230,13 @@ Day2:
   - time: 11:30 AM
     session:
       - location: West Lecture Room
-        title: "How can we use remote sensing technology to assess exposure to natural hazards? The METEOR Project"
+        title: "Using AWS Solutions During Disasters"
         presenter: 
-          - people:
-              - "Mhairi O'Hara"
-            organization: HOT
-          - people:
-              - "Garauv Thapa"
-            organization: Kathmandu Living Labs
           - people: 
-              - Emmanuel Kombe
-            organization: OpenMap Development - Tanzania
+              - Grace Kitzmiller
+              - Ana Visneski
+            organization: AWS
+        abstract: "Join the AWS Disaster Response Program as they discuss disaster response user needs, how they are using open source mapping, and exhibit the Element 84 prototype disaster response pipeline for field data management. Learn how using an Amazon Snowball Edge preloaded with critical information, including reach-back capabilities can help first responders update data from the field from in-situ sources such as drones."
         duration: 00:45
       - location: East Lecture Room
         title: "IDPs & Refugees, Mapping People in Crisis"
@@ -326,13 +323,17 @@ Day2:
   - time: 4:00 PM
     session:
       - location: West Lecture Room
-        title: "Using AWS Solutions During Disasters"
+        title: "How can we use remote sensing technology to assess exposure to natural hazards? The METEOR Project"
         presenter: 
+          - people:
+              - "Mhairi O'Hara"
+            organization: HOT
+          - people:
+              - "Garauv Thapa"
+            organization: Kathmandu Living Labs
           - people: 
-              - Grace Kitzmiller
-              - Ana Visneski
-            organization: AWS
-        abstract: "Join the AWS Disaster Response Program as they discuss disaster response user needs, how they are using open source mapping, and exhibit the Element 84 prototype disaster response pipeline for field data management. Learn how using an Amazon Snowball Edge preloaded with critical information, including reach-back capabilities can help first responders update data from the field from in-situ sources such as drones."
+              - Emmanuel Kombe
+            organization: OpenMap Development - Tanzania
         duration: 00:45
       - location: East Lecture Room
         title: "Using AI to Map the World with Facebook's RapiD editor"
