@@ -88,6 +88,11 @@ layout: default
                   {% endfor %}
                 </p>
               {% endif %}
+              {% if s.link %}
+              <p class="presenter location-link">
+                See for <a href="{{s.map}}">map</a> for location or read details on the <a href="{{s.link}}">website</a>
+              </p>
+              {% endif %}
               {% endif %}
           </div>
           {% endif %}
@@ -163,7 +168,12 @@ layout: default
                   {% if forloop.length > 1 and forloop.last == false %} {{ "&" | escape }} {% endif %}
                   {% endfor %}
                 </p>
-            {% endif %}
+              {% endif %}
+              {% if s.link %}
+              <p class="presenter location-link">
+                See for <a href="{{s.map}}">map location</a> or read details on the <a href="{{s.link}}">website</a>
+              </p>
+              {% endif %}
               {% endif %}
           </div>
           {% endif %}
