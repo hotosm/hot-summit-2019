@@ -1,6 +1,6 @@
 ---
 title: Grace Kitzmiller
 organization: AWS
-talk: "Using AWS Solutions During Disasters"
+talk: "Hands On Experience Extracting Meaningful OSM Data by Using Amazon Athena with AWS Public Datasets"
 permalink: /speakers/#grace-kitzmiller
 ---
