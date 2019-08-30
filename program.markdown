@@ -94,6 +94,7 @@ Day1:
         duration: "02:00"
       - location: Small Lecture Room
         title: "Discussion: YouthMappers Regional Ambassadors"
+        abstract: "YouthMappers has grown from 3 to over 150 chapters in just over three years. To help ensure support to the entire network YouthMappers Regional Ambassador positions were recently created to recruit new university-based chapters and onboard new chapter members to the YouthMappers vision, ethics, workflows, and partnership opportunities.  These positions include hosting local training on technical participation in building and using OSM for humanitarian and development needs."
         presenter: 
           - people:
               - Chad Blevins
@@ -144,6 +145,8 @@ Day1:
     session:
       - location: Internationales Wissenschaftsforum Heidelberg
         title: HOT Sponsored Social Event
+        map: https://www.openstreetmap.org/way/36818626
+        link: https://www.uni-heidelberg.de/einrichtungen/iwh/index_engl.html
 
 Day2:
   - time: 8:30 AM
@@ -389,9 +392,11 @@ Day2:
     session:
       - location: Marstall
         title: Social event in partnership with State of the Map
-        duration: "02:00"
+        duration: 02:00
+        map: https://www.openstreetmap.org/way/230597543
+        link: https://www.studentenwerk.uni-heidelberg.de/en/node/342
 ---
 
-On September 19-20, 2019 HOT will convene for a global community meeting. The entire HOT community will come together to showcase projects, discuss and share ideas, and learn how mapping projects can have impact on the lives beyond the people mapping and create better disaster and development outcomes.
+On September 19-20, 2019 HOT will convene for a global community meeting. The entire HOT community will come together to showcase projects, discuss and share ideas, and learn how mapping projects can have impact on the lives beyond the people mapping and create better disaster and development outcomes. All sessions happen at the [Chemisches Institut](https://www.openstreetmap.org/way/25298676) at HeidelBerg University.
   * **Thursday, Sept 19** will focus on skillbuilding workshops for all levels and in-depth discussions within the HOT Community and partners
   * **Friday, Sept 20** will consist of lightning talks, interesting presentations and panels on new approaches, and tools for OpenStreetMap for humanitarian mapping
