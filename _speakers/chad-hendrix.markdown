@@ -1,5 +1,5 @@
 ---
-title: Chad Hendrix
+title: CJ Hendrix
 organization: HDX
-permalink: /speakers/#chad-hendrix
+permalink: /speakers/#cj-hendrix
 ---
