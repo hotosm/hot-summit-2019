@@ -251,7 +251,7 @@ Day2:
         title: TBD
         presenter: 
           - people:
-              - Chad Hendrix
+              - CJ Hendrix
             organization: HDX
         duration: "00:45"
   - time: 12:30 PM
