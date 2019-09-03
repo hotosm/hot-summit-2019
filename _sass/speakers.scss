@@ -14,15 +14,31 @@
   margin-left: 0px;
 }
 
+.speaker-content {
+  @media (min-width: $screen-xs) {
+    grid-column: 1 / -2;
+    grid-row: 1 / -1;
+  }
+}
+
+.module-image {
+  img {
+    object-position: top center;
+  }
+}
+
 .speaker-index-all {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-auto-rows: min-content;
   grid-gap: 16px;
   @media (min-width: $screen-xs) {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 40px;
     margin-bottom: 40px;
+  }
+  @media (max-width: $screen-xs) {
+    grid-template-columns: repeat(2, 1fr);
   }
   .project-module {
     display: grid;

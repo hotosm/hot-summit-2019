@@ -10,7 +10,7 @@ layout: default
   </header>
 
   <div class="page-layout-body">
-    <div class="page-content">
+    <div class="speaker-content">
       <div class="article">
         {% if page['Intro Text'] %}
           <p class="news-summary">{{ page['Intro Text' ]}}</p>
@@ -27,25 +27,6 @@ layout: default
       </div>
 
     </div>
-
-    <aside class="meta">
-
-      {% if page['Page Contact'] %}
-        <p class="meta-p">{{ page['Page Contact']['Text'] }}</p>
-        <div class="sticky-wrap">
-          <a class="btn btn-primary btn-block btn-chevron" href="mailto:{{ page['Page Contact']['Contact Email'] }}">{{ page['Page Contact']['Label'] }}</a>
-        </div>
-      {% endif %}
-
-      {% if page['Page Link'] %}
-        <p class="meta-p">{{ page['Page Link']['Text'] }}</p>
-        <div class="sticky-wrap">
-          <a class="btn btn-primary btn-block btn-chevron" href="{{ page['Page Link']['Link'] }}">{{ page['Page Link']['Label'] }}</a>
-        </div>
-      {% endif %}
-
-
-    </aside>
 
   </div>
 
