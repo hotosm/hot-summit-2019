@@ -296,7 +296,7 @@ Day2:
   - time: 2:45 PM
     session:
       - location: West Lecture Room
-        title: "Digital Volunteers in Disaster Management "
+        title: "Digital Volunteers in Disaster Management"
         presenter: 
           - people:
             - Holger Ziehm
