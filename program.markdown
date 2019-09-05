@@ -353,13 +353,13 @@ Day2:
               - Matt Gibb              
         duration: "00:45"
       - location: East Lecture Room
-        title: "MapAction, HOT and the Cyclone Idai Response / H2H Networks"
+        title: "Working together to build a map during disasters: H2H network and the Cyclone Idai response"
         presenter: 
           - people:
               - Steve Penson
             organization: MapAction
           - people:
-              - Rebecca Petras
+              - Juditth Burchett
             organization: H2H Network
         abstract: "With over three million people affected and hundreds of people killed, Cyclone Idai was one of the worst tropical cyclones on record to affect Africa and the Southern Hemisphere. In the days following the cyclone, MapAction was invited by UNDAC to support the initial response teams in Mozambique. Through sending a team focused on providing mapping and information management services, MapAction was able to quickly inform vital decision making for multiple humanitarian agencies in the country. This talk will focus on MapAction’s role in the initial response, but also focus on how OpenStreetMap, HOT and the Missing Maps Project provided a vital role in ensuring relevant and timely data was available for the teams on the ground. We will also discuss how greater collaboration and continued use of platforms, such as HDX, can support future deployments."
         duration: "00:45"
@@ -388,7 +388,7 @@ Day2:
           - people:
             - Holger Ziehm
             - Volker Tondorf
-            organization: ESRI/ VOST THW
+            organization: ESRI / VOST THW
         abstract: "This talk will share details of VOST. This is a trusted network of digital volunteers as part of a GO: therefore established and formalized organizational structures, as well as experience and training in civil protection. This presentation will provide a short introduction of VOST, KUBAS (a tool for integration of spontaneous volunteers) and Esri. VOST will share how they have worked with government in open mapping, as well as with trusted volunteers. What can we learn from localization and visualization of social media data and past deployments? It will discuss mapping approaches from ESRI, including the presentation of the Disaster Response Program (DRP) and OpenStreetMap data."
         duration: "00:45"
       - location: East Lecture Room
@@ -424,7 +424,7 @@ Day2:
             organization: Kathmandu Living Labs
           - people: 
               - Emmanuel Kombe
-            organization: OpenMap Development - Tanzania
+            organization: OpenMap Development - Tanzania (OMDTZ)
         duration: "00:45"
       - location: East Lecture Room
         title: "Using AI to Map the World with Facebook's RapiD editor"
@@ -461,7 +461,15 @@ Day2:
               - Yusuf Suleiman
             organization: Catholic Relief Services
         abstract: "In 2016, HOT began working with global partners on using OpenStreetMap data in malaria elimination efforts. Since then, HOT has mapped over five million buildings in OpenStreetMap in over 10 countries and completed field projects in Botswana and Guatemala with National Malaria Programmes using OpenMapKit. This talk will focus on the next steps in using OpenStreetMap for malaria elimination - how we can overcome the roadblocks we’ve faced so far and the challenges we anticipate going forward. As many organizations are looking towards integrating OpenStreetMap and mobile data collection applications, this will also be an interactive discussion soliciting other individuals and organizations in the field of malaria elimination to contribute their experiences, challenges, and ideas."
-        duration: "00:45"
+        duration: "00:20"
+      - location: East Lecture Room
+        title: "Code4Africa"
+        presenter: 
+          - people: 
+              - Justin Arenstein
+            organization: Code4Africa
+        abstract: "Code4Africa is Africa's largest civic technology/open data initiative. We have physical labs in six African countries, and affiliate labs in another four countries. We also support work elsewhere on the continent. Our labs all have software/hardware engineers, data scientists/analysts and digital storytellers (journalists, designers, videographers, etc). We build digital democracy tools, and amplify the voices of our partners in watchdog civic organisations (both in government and civil society), as well as in the media."
+        duration: "00:20"        
       - location: Small Lecture Room
         title: "Mapping Indigenous Communities with the Canadian Red Cross Missing Maps Pilot"
         presenter: 
