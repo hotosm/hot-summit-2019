@@ -343,6 +343,14 @@ Day2:
               - Emmor Nile
           - people:
               - Mikel Maron
+          - people:
+              - Jorieke Vyncke 
+          - people:
+              - Rebecca Firth
+          - people:              
+              - Shamillah Nassozi
+          - people:
+              - Matt Gibb              
         duration: "00:45"
       - location: East Lecture Room
         title: "MapAction, HOT and the Cyclone Idai Response / H2H Networks"
