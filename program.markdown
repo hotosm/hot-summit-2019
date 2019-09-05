@@ -195,8 +195,8 @@ Day2:
           - people:
               - Tyler Radford
             organization: HOT
-        duration: "00:45"
-  - time: 9:30 AM
+        duration: "00:25"
+  - time: 9:25 AM
     session:
       - location: West Lecture Room
         title: "Lightning Talks: Growing South-East Asian OpenStreetMap Communities with HOTOSM"
@@ -204,33 +204,55 @@ Day2:
           - people:
               - Jinal Foflia
             organization: Grab
-        duration: "00:15"
+        duration: "00:05"
       - location: West Lecture Room
-        title: "Lightning Talks: Creating a global health facilities platform with OSM data"
-        presenter: 
-          - people:
-              - Tim Sutton
-            organization: Kartoza
-          - people:
-              - Mark Herringer
-            organization: Healthsites.io
-        duration: "00:15"
-  - time: 9:45 AM
-    session:
-      - location: West Lecture Room
-        title: "Lightning Talks: Making our Dream Work: Refugees and Underrepresented Communities"
+        title: "Lightning Talks: Making our Dream Work- Refugees and Underrepresented Communities"
         presenter: 
           - people:
               - Shamilah Ssekandi Nassozi
             organization: HOT
-        duration: "00:15"
-      - location: East Lecture Room
+        duration: "00:05" 
+      - location: West Lecture Room
+        title: "Lightning Talks: Mapathon for Mental Health"
+        presenter: 
+          - people:
+              - Sandra Tabinas
+        duration: "00:05"   
+      - location: West Lecture Room
         title: "Lightning Talks: A Failure of Disaster Mapping: Assets and Threats"
         presenter: 
           - people:
               - Immaculate Mwanja
             organization: HOT
-        duration: "00:15"
+        duration: "00:05"   
+      - location: West Lecture Room
+        title: "Lightning Talks: Using a Flood Vulnerability Index for Coastal Communities: COASTMAP URABÁ in Colombia"
+        presenter: 
+          - people:
+              - María Fernanda Peña Valencia
+            organization: University of Antioquia
+        duration: "00:05" 
+      - location: West Lecture Room
+        title: "Lightning Talks: Using OpenStreetMap to Advance Student Learning"
+        presenter: 
+          - people:
+              - Rebecca Firth
+            organization: HOT
+        duration: "00:05"   
+      - location: West Lecture Room
+        title: "Lightning Talks: Using OpenStreetMap to Advance Student Learning"
+        presenter: 
+          - people:
+              - Rebecca Firth
+            organization: HOT
+        duration: "00:05"        
+      - location: West Lecture Room
+        title: "Lightning Talks: Sustaining Engagement with Disconnected Mappers"
+        presenter: 
+          - people:
+              - Jess Bergmann
+            organization: HOT
+        duration: "00:05"
   - time: 10:15 AM
     session:
       - location: West Lecture Room
