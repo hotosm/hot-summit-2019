@@ -262,7 +262,7 @@ Day2:
               - Nikola Trifunovic
             organization: Microsoft
         abstract: "Microsoft is helping create open buildings data for Tanzania and Uganda by combining powers of volunteer humanitarian mappers, machine learning techniques and computation at scale. Deep learning methods applied to satellite imagery enables features to be detected at scale across large areas. The proposal is to get members of the technical team to discuss learnings, key challenges and findings with a broader audience. The efficiencies gained with these processes are huge and with more such efforts expected in future - sharing the knowledge gained will be beneficial to the HOT community."
-        duration: "00:30"
+        duration: "00:45"
       - location: East Lecture Room
         title: "How can HOT data, machine learning and crowd-sourced data improve refugee and IDP settlements?"
         presenter: 
@@ -270,7 +270,7 @@ Day2:
               - Hannah Friedrich
             organization: Oregon State University
         abstract: "Globally, millions of people are systematically missing in national censuses and representative surveys, and excluded from humanitarian interventions, basic public services, and global settlement and population data sets. This presentation focuses on one category of the ‘Missing Millions’- refugees and internally displaced people (IDPs) living in ephemeral or long-term informal settlements. Over the last two years, we have collaborated with HOT to use OpenStreetMap data, satellite remote sensing time series, machine learning, and crowd-sourcing to better place refugee and IDP settlements on the map. This talk will outline the applications of OpenStreetMap refugee settlement data for propelling these components of the Missing Millions project forward, describe successes and identify persistent challenges to mapping informal settlements, and outline next steps in partnering with HOT to co-create a more inclusive settlement dataset."
-        duration: "00:15"
+        duration: "00:20"
       - location: East Lecture Room
         title: "HOT Mapping with Refugee Communities"
         presenter: 
@@ -278,7 +278,7 @@ Day2:
               - Sara Amadi
               - Shamilah Ssekandi Nassozi 
             organization: HOT
-        duration: "00:15"        
+        duration: "00:20"        
       - location: Small Lecture Room
         title: "Resilient Networks, OpenStreetMap and Open Data to Achieve the SDGs"
         presenter: 
@@ -286,7 +286,7 @@ Day2:
               - Celina Agaton
             organization: MapPH
         abstract: "Open data and free and open source geospatial technologies from OpenStreetMap, from video to processed satellite imagery tools, enable a more real-time, real-life model to better prioritize, mobilize and monitor cross-sector initiatives. By layering public and private sector data within the framework of the UN Sustainable Development Goals, more impact and community-driven decisions can be made at the local, regional and national level, identifying gaps and overlaps, risks and opportunities. Map the Philippines Inc. (MapPH) has implemented this model in the agriculture, conflict and food insecure areas in Mindanao, to map rural agriculture and artisan infrastructure, study the impact of transportation infrastructure on gender, and analyze container truck logistics to shape public and private sector investment in the region. The next phase involves the transition of local communities into premium and ethical livelihoods in agriculture, artisan trades, tourism and technology."
-        duration: "00:30"
+        duration: "00:45"
   - time: 11:00 AM
     session:
       - location: Main Lobby
@@ -301,19 +301,38 @@ Day2:
               - Ana Visneski
             organization: AWS
         abstract: "Join the AWS Disaster Response Program as they discuss disaster response user needs, how they are using open source mapping, and exhibit the Element 84 prototype disaster response pipeline for field data management. Learn how using an Amazon Snowball Edge preloaded with critical information, including reach-back capabilities can help first responders update data from the field from in-situ sources such as drones."
-        duration: 00:45
-      - location: East Lecture Room
-        title: "IDPs & Refugees, Mapping People in Crisis"
-        presenter: 
-          - organization: HOT Uganda/Aruba
         duration: "00:45"
+      - location: East Lecture Room
+        title: "Creating a global health facilities platform with OSM data"
+        presenter: 
+          - people: 
+              - Tim Sutton
+            organization: Kartoza
+          - people: 
+              - Mark Herringer
+            organization: HealthSites.io            
+        duration: "00:20"
+      - location: East Lecture Room
+        title: "PhilAware & InAware"
+        presenter: 
+          - people: 
+              - Joel Myhre
+            organization: Pacific Disaster Center          
+        duration: "00:20"        
       - location: Small Lecture Room
-        title: TBD
+        title: So Much Data! HDX and the Data Grid
         presenter: 
           - people:
               - CJ Hendrix
             organization: HDX
-        duration: "00:45"
+        duration: "00:20"
+      - location: Small Lecture Room
+        title: Ethical Data
+        presenter: 
+          - people:
+              - Rob Baker
+            organization: Harvard Humanitarian Institute
+        duration: "00:20"        
   - time: 12:30 PM
     session:
       - location: West Lecture Room
