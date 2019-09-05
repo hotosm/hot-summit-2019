@@ -63,7 +63,7 @@ Day1:
     session:
       - location: Main Lobby
         title: "Coffee / Community Board"
-  - time: 11:30 AM
+  - time: 12:00 PM
     session:
       - location: West Lecture Room
         title: "Workshop 4: Getting the Best Quality Data from the Start: Tasking Manager and Mapathons"
@@ -73,7 +73,7 @@ Day1:
               - Geoffrey Kateregga
             organization: HOT
         abstract: "If you want to get good quality remote mapping from volunteers, how you up a project on HOT’s Tasking Manager is a critical step. In this workshop, we will show how to become a Tasking Manager project manager and how to set up a task to get the best possible data from the mapping community. Participants will have the opportunity to work hands-on with Tasking Manager to refine their skills gained during this workshop.It will cover: What to include (and not include) in project descriptions and instructions for improved clarity and quality; Recommended project sizes that are effective and keep mappers mapping; Fast project activation for emergencies without compromising quality; How to communicate factors that are unique to your project’s area of interest."
-        duration: "02:00"
+        duration: "01:30"
       - location: East Lecture Room
         title: "Workshop 5: Using Machine Learning to Improve Humanitarian Action"
         presenter: 
@@ -82,7 +82,7 @@ Day1:
               - Felix Delattre
             organization: HOT
         abstract: "Computers can efficiently perform multiple tasks at the same time using a detailed set of instructions. However, teaching machines to ‘understand’ the world is not a simple task. This workshop will showcase the basics of computer vision. You will learn how to apply a basic workflow, from describing a digital image, to applying a machine learning algorithm for computer vision on images to detect features such as buildings. We will also show a sneak preview of how HOT is applying machine learning to the Tasking Manager and see how mappers can be assisted with enriched data to create better projects, get the right tasks into the best hands and what user flows will look like. We will also explore how machine learning might be further used for HOT, and humanitarian action in general."
-        duration: "02:00"
+        duration: "01:30"
       - location: Small Lecture Room
         title: "Workshop 6: Ethical and Community Driven Mapping Data: HOT Community Experiences"
         presenter: 
@@ -91,14 +91,14 @@ Day1:
               - Martin Dittus
             organization: Aotearoa, New Zealand and UK
         abstract: "Technological approaches tend to be hyped up and wrapped in discourses like ‘innovation’, while missing out on sharing stories of the ordinary, minor, and subtle matters involved in mapping. HOT has a tradition of trying to avoid such traps and do humanitarian work better by helping to democratise, diversify and decolonise mapping. Ethically, we need continue to expand and deepen this practice. But how? This discussion will provide a friendly space for our community to share stories of being a humanitarian mapping volunteer – and the everyday experiences and challenges we face."
-        duration: "02:00"
+        duration: "00:45"
       - location: Small Lecture Room
         title: "Discussion: YouthMappers Regional Ambassadors"
         abstract: "YouthMappers has grown from 3 to over 150 chapters in just over three years. To help ensure support to the entire network YouthMappers Regional Ambassador positions were recently created to recruit new university-based chapters and onboard new chapter members to the YouthMappers vision, ethics, workflows, and partnership opportunities.  These positions include hosting local training on technical participation in building and using OSM for humanitarian and development needs."
         presenter: 
           - people:
               - Chad Blevins
-        duration: "01:00"
+        duration: "00:45"
   - time: 1:30 PM
     session:
       - location: Cafeteria
