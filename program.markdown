@@ -110,20 +110,26 @@ Day1:
   - time: 3:15 PM
     session:
       - location: Small Lecture Room
-        title: "Workshop 7: After You Create OSM Data: Analysis and Building with Services"
+        title: "Workshop 7: How to Use OpenStreetMap Data for Humanitarian Services"
         presenter: 
           - people:
               - Martin Raifer
             organization: GIScience Research Group
           - organization: Mapbox
         abstract: "Humanitarian and emergency work require quick and easy access to OpenStreetMap and related data. Responders often have to quickly analyse data to understand the number of households close to a school or calculate average distances to a school or hospital. In this workshop Mapbox, GIScience Research Group, and Heidelberg Institute for Geoinformation Technology (HeiGIT) will share tools and approaches for using OpenStreetMap data for humanitarian services. You will come away from the workshop with a thorough understanding, and resources to learn more, of how to pull OpenStreetMap data into services to facilitate decision making and informed action. This collaborative workshop is based on our experiences building and using tools like ohsome for analysis and data extraction, openrouteservice and Mapbox Traffic APIs, OSMCha, visualization tools and more."
-        duration: "02:00"
+        duration: "01:30"
       - location: West Lecture Room
         title: "Workshop 8 [Sponsored]: Using OpenStreetMap in the Field: Offline Vector-file-format for Humanitarian Field Workers"
         presenter: 
-          - organization: ESRI
+          - people:
+          - people:
+              - Brendan O'Neill
+            organization: ESRI US
+          - people:
+              - Konstantinos Vitsaras
+            organization: ESRI DE
         abstract: "Humanitarians often work in environments where they need easily accessible, offline maps. This workshop will show how to download OpenStreetMap in a vector-tile-format onto your mobile device, so it takes up little memory, but maintains good visual quality. We will work with the OpenStreetMap Vector Basemap, set up in cooperation with the OpenStreetMap Foundation and hosted by Esri. You will get hands-on experience in: Preparing your area of interest of the OpenStreetMap Vector Basemap; Exporting to a mobile device via pre-planned workflow or on-demand workflow; Using with Collector"
-        duration: "02:00"
+        duration: "01:30"
       - location: East Lecture Room
         title: "Workshop 9 [Sponsored]: Hands On Experience Extracting Meaningful OSM Data by Using Amazon Athena with AWS Public Datasets"
         presenter:
@@ -134,7 +140,7 @@ Day1:
               - Jennings Anderson
             organization: University of Colorado Boulder
         abstract:  "Learn how to use Amazon Athena with AWS Public Datasets to query large amounts of OSM data and extract meaningful results. We will explore the maintenance behavior of contributors after HOT mapping activations and learn how the map gets maintained, what happens after validation, if the data grows stale, and if a local community emerges. This 200 level workshop is hands on and requires familiarity with SQL. Familiarity with data science tools such as Python and Jupyter Notebooks is helpful, but not required. Sample code will be made available at the state that participants can modify and ask their own questions of the data." 
-        duration: "01:00"
+        duration: "01:30"
   - time: 5:00 PM
     session:
       - location: Small Lecture Room
