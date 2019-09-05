@@ -17,12 +17,17 @@ Day1:
     session:
       - location: West Lecture Room
         title: "Welcome Remarks"
-        duration: "00:15"
-  - time: 9:15 AM
-    session: 
-      - location: West Lecture Room
-        title: "Lightning Talks"
-        duration: "00:15"
+        presenter: 
+          - people:
+              - Rachel VanNice
+            organization: HOT
+          - people:
+              - Melanie Eckle
+            organization: GIScience Research Group, Heidelberg University
+          - people:
+              -  Dr. Alexander Zipf
+            organization: GIScience Research Group, Heidelberg University  
+        duration: "00:20"
   - time: 9:30 AM
     session:
       - location: West Lecture Room
@@ -63,6 +68,29 @@ Day1:
     session:
       - location: Main Lobby
         title: "Coffee / Community Board"
+  - time: 11:30 AM
+    session:
+      - location: West Lecture Room
+        title: "Lightning Talks: Public Transport in OpenStreetMap for Social and Environmental Equality"
+        presenter: 
+          - people:
+              - Felix Delattre
+            organization: HOT
+        duration: "00:15"
+      - location: West Lecture Room
+        title: "Lightning Talks: Analysing OSM tags for the creation of an SDGs data model"
+        presenter: 
+          - people:
+              - Mhairi O'Hara
+            organization: HOT
+        duration: "00:15"
+      - location: West Lecture Room
+        title: "Lightning Talks: Road Mapping using AI-Assisted Road Tracing Method"
+        presenter: 
+          - people:
+              - Wulansari Khairunisa
+            organization: HOT
+        duration: "00:15"
   - time: 12:00 PM
     session:
       - location: West Lecture Room
@@ -121,7 +149,6 @@ Day1:
       - location: West Lecture Room
         title: "Workshop 8 [Sponsored]: Using OpenStreetMap in the Field: Offline Vector-file-format for Humanitarian Field Workers"
         presenter: 
-          - people:
           - people:
               - Brendan O'Neill
             organization: ESRI US
