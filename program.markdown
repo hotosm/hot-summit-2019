@@ -193,6 +193,15 @@ Day2:
               - Catalina Jaime
             organization: Red Cross Red Crescent Climate Centre
         duration: "00:15"   
+  - time: 9:15 AM
+    session:
+      - location: West Lecture Room
+        title: "Welcome"
+        presenter: 
+          - people:
+              - Tyler Radford
+            organization: HOT
+        duration: "00:10"           
   - time: 9:25 AM
     session:
       - location: West Lecture Room
