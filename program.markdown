@@ -187,15 +187,21 @@ Day2:
   - time: 9:00 AM
     session:
       - location: West Lecture Room
-        title: "Welcome & Keynote"
+        title: "Keynote"
         presenter: 
           - people:
               - Catalina Jaime
             organization: Red Cross Red Crescent Climate Centre
+        duration: "00:15"
+   - time: 9:15 AM
+     session:
+      - location: West Lecture Room
+        title: "Welcome"
+        presenter: 
           - people:
               - Tyler Radford
             organization: HOT
-        duration: "00:25"
+        duration: "00:10"      
   - time: 9:25 AM
     session:
       - location: West Lecture Room
@@ -238,14 +244,7 @@ Day2:
           - people:
               - Rebecca Firth
             organization: HOT
-        duration: "00:05"   
-      - location: West Lecture Room
-        title: "Lightning Talks: Using OpenStreetMap to Advance Student Learning"
-        presenter: 
-          - people:
-              - Rebecca Firth
-            organization: HOT
-        duration: "00:05"        
+        duration: "00:05"          
       - location: West Lecture Room
         title: "Lightning Talks: Sustaining Engagement with Disconnected Mappers"
         presenter: 
