@@ -19,14 +19,12 @@ Day1:
         title: "Welcome Remarks"
         presenter: 
           - people:
-              - Rachel VanNice
-            organization: HOT
-          - people:
               - Melanie Eckle
+              - Dr. Alexander Zipf
             organization: GIScience Research Group, Heidelberg University
           - people:
-              -  Dr. Alexander Zipf
-            organization: GIScience Research Group, Heidelberg University  
+              - Rachel VanNice
+            organization: HOT 
         duration: "00:20"
   - time: 9:30 AM
     session:
