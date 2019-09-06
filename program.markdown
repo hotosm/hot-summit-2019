@@ -265,7 +265,7 @@ Day2:
        duration: "00:45"
      - location: East Lecture Room  
        title: "Working together to build a map during disasters: H2H network and the Cyclone Idai response"
-        presenter: 
+       presenter: 
           - people:
               - Steve Penson
             organization: MapAction
