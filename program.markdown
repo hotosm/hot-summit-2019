@@ -258,7 +258,6 @@ Day2:
         title: "Lessons for the Next Machine Learning Project"
         presenter:
           - people: 
-              - Harsh Govind
               - Nikola Trifunovic
             organization: Microsoft
         abstract: "Microsoft is helping create open buildings data for Tanzania and Uganda by combining powers of volunteer humanitarian mappers, machine learning techniques and computation at scale. Deep learning methods applied to satellite imagery enables features to be detected at scale across large areas. The proposal is to get members of the technical team to discuss learnings, key challenges and findings with a broader audience. The efficiencies gained with these processes are huge and with more such efforts expected in future - sharing the knowledge gained will be beneficial to the HOT community."
