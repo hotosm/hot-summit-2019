@@ -262,23 +262,18 @@ Day2:
               - Nikola Trifunovic
             organization: Microsoft
         abstract: "Microsoft is helping create open buildings data for Tanzania and Uganda by combining powers of volunteer humanitarian mappers, machine learning techniques and computation at scale. Deep learning methods applied to satellite imagery enables features to be detected at scale across large areas. The proposal is to get members of the technical team to discuss learnings, key challenges and findings with a broader audience. The efficiencies gained with these processes are huge and with more such efforts expected in future - sharing the knowledge gained will be beneficial to the HOT community."
+       duration: "00:45"
+     - location: East Lecture Room  
+       title: "Working together to build a map during disasters: H2H network and the Cyclone Idai response"
+        presenter: 
+          - people:
+              - Steve Penson
+            organization: MapAction
+          - people:
+              - Juditth Burchett
+            organization: H2H Network
+        abstract: "With over three million people affected and hundreds of people killed, Cyclone Idai was one of the worst tropical cyclones on record to affect Africa and the Southern Hemisphere. In the days following the cyclone, MapAction was invited by UNDAC to support the initial response teams in Mozambique. Through sending a team focused on providing mapping and information management services, MapAction was able to quickly inform vital decision making for multiple humanitarian agencies in the country. This talk will focus on MapAction’s role in the initial response, but also focus on how OpenStreetMap, HOT and the Missing Maps Project provided a vital role in ensuring relevant and timely data was available for the teams on the ground. We will also discuss how greater collaboration and continued use of platforms, such as HDX, can support future deployments."
         duration: "00:45"
-      - location: East Lecture Room
-        title: "How can HOT data, machine learning and crowd-sourced data improve refugee and IDP settlements?"
-        presenter: 
-          - people:
-              - Hannah Friedrich
-            organization: Oregon State University
-        abstract: "Globally, millions of people are systematically missing in national censuses and representative surveys, and excluded from humanitarian interventions, basic public services, and global settlement and population data sets. This presentation focuses on one category of the ‘Missing Millions’- refugees and internally displaced people (IDPs) living in ephemeral or long-term informal settlements. Over the last two years, we have collaborated with HOT to use OpenStreetMap data, satellite remote sensing time series, machine learning, and crowd-sourcing to better place refugee and IDP settlements on the map. This talk will outline the applications of OpenStreetMap refugee settlement data for propelling these components of the Missing Millions project forward, describe successes and identify persistent challenges to mapping informal settlements, and outline next steps in partnering with HOT to co-create a more inclusive settlement dataset."
-        duration: "00:20"
-      - location: East Lecture Room
-        title: "HOT Mapping with Refugee Communities"
-        presenter: 
-          - people:
-              - Sara Amadi
-              - Shamilah Ssekandi Nassozi 
-            organization: HOT
-        duration: "00:20"        
       - location: Small Lecture Room
         title: "Resilient Networks, OpenStreetMap and Open Data to Achieve the SDGs"
         presenter: 
@@ -303,21 +298,20 @@ Day2:
         abstract: "Join the AWS Disaster Response Program as they discuss disaster response user needs, how they are using open source mapping, and exhibit the Element 84 prototype disaster response pipeline for field data management. Learn how using an Amazon Snowball Edge preloaded with critical information, including reach-back capabilities can help first responders update data from the field from in-situ sources such as drones."
         duration: "00:45"
       - location: East Lecture Room
-        title: "Creating a global health facilities platform with OSM data"
+        title: "How can HOT data, machine learning and crowd-sourced data improve refugee and IDP settlements?"
         presenter: 
-          - people: 
-              - Tim Sutton
-            organization: Kartoza
-          - people: 
-              - Mark Herringer
-            organization: HealthSites.io            
+          - people:
+              - Hannah Friedrich
+            organization: Oregon State University
+        abstract: "Globally, millions of people are systematically missing in national censuses and representative surveys, and excluded from humanitarian interventions, basic public services, and global settlement and population data sets. This presentation focuses on one category of the ‘Missing Millions’- refugees and internally displaced people (IDPs) living in ephemeral or long-term informal settlements. Over the last two years, we have collaborated with HOT to use OpenStreetMap data, satellite remote sensing time series, machine learning, and crowd-sourcing to better place refugee and IDP settlements on the map. This talk will outline the applications of OpenStreetMap refugee settlement data for propelling these components of the Missing Millions project forward, describe successes and identify persistent challenges to mapping informal settlements, and outline next steps in partnering with HOT to co-create a more inclusive settlement dataset."
         duration: "00:20"
       - location: East Lecture Room
-        title: "PhilAware & InAware"
+        title: "HOT Mapping with Refugee Communities"
         presenter: 
-          - people: 
-              - Joel Myhre
-            organization: Pacific Disaster Center          
+          - people:
+              - Sara Amadi
+              - Shamilah Ssekandi Nassozi 
+            organization: HOT
         duration: "00:20"        
       - location: Small Lecture Room
         title: So Much Data! HDX and the Data Grid
@@ -353,17 +347,23 @@ Day2:
               - Matt Gibb              
         duration: "00:45"
       - location: East Lecture Room
-        title: "Working together to build a map during disasters: H2H network and the Cyclone Idai response"
+        title: "Creating a global health facilities platform with OSM data"
         presenter: 
-          - people:
-              - Steve Penson
-            organization: MapAction
-          - people:
-              - Juditth Burchett
-            organization: H2H Network
-        abstract: "With over three million people affected and hundreds of people killed, Cyclone Idai was one of the worst tropical cyclones on record to affect Africa and the Southern Hemisphere. In the days following the cyclone, MapAction was invited by UNDAC to support the initial response teams in Mozambique. Through sending a team focused on providing mapping and information management services, MapAction was able to quickly inform vital decision making for multiple humanitarian agencies in the country. This talk will focus on MapAction’s role in the initial response, but also focus on how OpenStreetMap, HOT and the Missing Maps Project provided a vital role in ensuring relevant and timely data was available for the teams on the ground. We will also discuss how greater collaboration and continued use of platforms, such as HDX, can support future deployments."
-        duration: "00:45"
-      - location: Small Lecture Room
+          - people: 
+              - Tim Sutton
+            organization: Kartoza
+          - people: 
+              - Mark Herringer
+            organization: HealthSites.io            
+        duration: "00:20"
+      - location: East Lecture Room
+        title: "PhilAware & InAware"
+        presenter: 
+          - people: 
+              - Joel Myhre
+            organization: Pacific Disaster Center          
+        duration: "00:20"        
+       
         title: "#map2020: Addressing Humanitarian Challenges with Street-Level Imagery"
         presenter: 
           - people:
