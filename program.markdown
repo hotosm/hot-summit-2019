@@ -269,7 +269,7 @@ Day2:
               - Steve Penson
             organization: MapAction
           - people:
-              - Juditth Burchett
+              - Judith Burchett
             organization: H2H Network
         abstract: "With over three million people affected and hundreds of people killed, Cyclone Idai was one of the worst tropical cyclones on record to affect Africa and the Southern Hemisphere. In the days following the cyclone, MapAction was invited by UNDAC to support the initial response teams in Mozambique. Through sending a team focused on providing mapping and information management services, MapAction was able to quickly inform vital decision making for multiple humanitarian agencies in the country. This talk will focus on MapAction’s role in the initial response, but also focus on how OpenStreetMap, HOT and the Missing Maps Project provided a vital role in ensuring relevant and timely data was available for the teams on the ground. We will also discuss how greater collaboration and continued use of platforms, such as HDX, can support future deployments."
         duration: "00:45"
