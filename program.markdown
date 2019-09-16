@@ -261,12 +261,13 @@ Day2:
               - Nikola Trifunovic
             organization: Microsoft
         abstract: "Microsoft is helping create open buildings data for Tanzania and Uganda by combining powers of volunteer humanitarian mappers, machine learning techniques and computation at scale. Deep learning methods applied to satellite imagery enables features to be detected at scale across large areas. The proposal is to get members of the technical team to discuss learnings, key challenges and findings with a broader audience. The efficiencies gained with these processes are huge and with more such efforts expected in future - sharing the knowledge gained will be beneficial to the HOT community."
+        duration: "00:20"
         title: "Data, Operational Excellence and HOT"
         presenter: 
          - people:
               - Mikel Maron
               organization: Mapbox 
-        duration: "00:45"
+        duration: "00:20"
       - location: East Lecture Room  
         title: "Working together to build a map during disasters: H2H network and the Cyclone Idai response"
         presenter: 
