@@ -265,9 +265,9 @@ Day2:
       - location: West Lecture Room
         title: "Data, Operational Excellence and HOT"
         presenter: 
-         - people:
+           - people:
               - Mikel Maron
-              organization: Mapbox 
+             organization: Mapbox 
         duration: "00:20"
       - location: East Lecture Room  
         title: "Working together to build a map during disasters: H2H network and the Cyclone Idai response"
