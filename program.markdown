@@ -266,9 +266,6 @@ Day2:
          - people:
               - Mikel Maron
               organization: Mapbox 
-        abstract: "HOT has evolved for over a decade from a corner of the OSM community where best practice in OSM mapping naturally pervades everything and everyone, to a global operation with myriad participants, staff and stakeholders with widely varying understandings of how to manage data. 
-We've heard repeatedly through the years about variance in data quality and consistency in tagging practices and documentation, both for remote and on the ground data creation; as HOT scales and grows its operation, how can it best manage data as an enterprise wide asset?
-This session will invite speakers with experience building data operations, both within the OSM world and outside, to share what they've learned, and reflect on the directions HOT can achieve excellence in its data production."
         duration: "00:45"
       - location: East Lecture Room  
         title: "Working together to build a map during disasters: H2H network and the Cyclone Idai response"
