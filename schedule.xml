@@ -44,7 +44,7 @@
         <track/>
         <type/>
         <language>en</language>
-        <abstract/>
+        {% if s.abstract %}<abstract>{{s.abstract}}</abstract>{% else %}<abstract/>{% endif %}
         <description/>
         <persons>{% if s.presenter %}{% for p in s.presenter %}{% for person in p.people %}
           <person id="{{ person | slugify }}">{{ person | escape }}</person>{% endfor %}{% endfor %}{% endif %}
@@ -64,7 +64,7 @@
         <track/>
         <type/>
         <language>en</language>
-        <abstract/>
+        {% if s.abstract %}<abstract>{{s.abstract}}</abstract>{% else %}<abstract/>{% endif %}
         <description/>
         <persons>{% if subsession.presenter %}{% for p in subsession.presenter %}{% for person in p.people %}
           <person id="{{ person | slugify }}">{{ person | escape }}</person>{% endfor %}{% endfor %}{% endif %}
@@ -82,7 +82,7 @@
         <track/>
         <type/>
         <language>en</language>
-        <abstract/>
+        {% if s.abstract %}<abstract>{{s.abstract}}</abstract>{% else %}<abstract/>{% endif %}
         <description/>
         <persons>{% if s.presenter %}{% for p in s.presenter %}{% for person in p.people %}
           <person id="{{ person | slugify }}">{{ person | escape }}</person>{% endfor %}{% endfor %}{% endif %}
@@ -104,7 +104,7 @@
         <track/>
         <type/>
         <language>en</language>
-        <abstract/>
+        {% if s.abstract %}<abstract>{{s.abstract}}</abstract>{% else %}<abstract/>{% endif %}
         <description/>
         <persons>{% if s.presenter %}{% for p in s.presenter %}{% for person in p.people %}
           <person id="{{ person | slugify }}">{{ person | escape }}</person>{% endfor %}{% endfor %}{% endif %}
@@ -124,7 +124,7 @@
         <track/>
         <type/>
         <language>en</language>
-        <abstract/>
+        {% if s.abstract %}<abstract>{{s.abstract}}</abstract>{% else %}<abstract/>{% endif %}
         <description/>
         <persons>{% if s.presenter %}{% for p in s.presenter %}{% for person in p.people %}
           <person id="{{ person | slugify }}">{{ person | escape }}</person>{% endfor %}{% endfor %}{% endif %}
@@ -144,7 +144,7 @@
         <track/>
         <type/>
         <language>en</language>
-        <abstract/>
+        {% if s.abstract %}<abstract>{{s.abstract}}</abstract>{% else %}<abstract/>{% endif %}
         <description/>
         <persons>{% if s.presenter %}{% for p in s.presenter %}{% for person in p.people %}
           <person id="{{ person | slugify }}">{{ person | escape }}</person>{% endfor %}{% endfor %}{% endif %}
