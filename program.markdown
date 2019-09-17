@@ -456,17 +456,6 @@ This talk will explore the humanitarian-to-humanitarian concept and what it mean
             - Ralph Aytoun
         duration: "00:45"
       - location: Horsaal Ost
-        title: "Mapping for Malaria Elimination"
-        presenter: 
-          - people: 
-              - Jess Beutler
-            organization: HOT
-          - people: 
-              - Yusuf Suleiman
-            organization: Catholic Relief Services
-        abstract: "In 2016, HOT began working with global partners on using OpenStreetMap data in malaria elimination efforts. Since then, HOT has mapped over five million buildings in OpenStreetMap in over 10 countries and completed field projects in Botswana and Guatemala with National Malaria Programmes using OpenMapKit. This talk will focus on the next steps in using OpenStreetMap for malaria elimination - how we can overcome the roadblocks we’ve faced so far and the challenges we anticipate going forward. As many organizations are looking towards integrating OpenStreetMap and mobile data collection applications, this will also be an interactive discussion soliciting other individuals and organizations in the field of malaria elimination to contribute their experiences, challenges, and ideas."
-        duration: "00:20"
-      - location: Horsaal Ost
         title: "Code4Africa"
         presenter: 
           - people: 
