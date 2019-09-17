@@ -12,7 +12,7 @@
     <timeslot_duration>00:15</timeslot_duration>
   </conference>
   <day index="1" date="2019-09-19" start="2019-09-19T08:30:00+02:00" end="2019-09-19T18:00:00+02:00">
-    <room name="West Lecture Room">{% for page in site.pages %}{% if page.title == 'Program' %}{% for session in page.Day1 %}{% for s in session.session %}{% if s.location == 'West Lecture Room' %}{% capture session_id %}{% increment id %}{% endcapture %}
+    <room name="Horsaal West">{% for page in site.pages %}{% if page.title == 'Program' %}{% for session in page.Day1 %}{% for s in session.session %}{% if s.location == 'Horsaal West' %}{% capture session_id %}{% increment id %}{% endcapture %}
       <event id="{{ session_id | plus: 1 }}" guid="hotosm-2019-{{ session_id | plus: 1 }}">
         <date>2019-09-19{{ session.time | date: "T%H:%M:%S" }}+02:00</date>
         <start>{{ session.time | date: "%H:%M" }}</start>
@@ -32,7 +32,7 @@
         <links/>
       </event>{% endif %}{% endfor %}{% endfor %}{% endif %}{% endfor %}
     </room>
-    <room name="East Lecture Room">{% for page in site.pages %}{% if page.title == 'Program' %}{% for session in page.Day1 %}{% for s in session.session %}{% if s.location == 'East Lecture Room' %}{% capture session_id %}{% increment id %}{% endcapture %}
+    <room name="Horsaal Ost">{% for page in site.pages %}{% if page.title == 'Program' %}{% for session in page.Day1 %}{% for s in session.session %}{% if s.location == 'Horsaal Ost' %}{% capture session_id %}{% increment id %}{% endcapture %}
       <event id="{{ session_id | plus: 1 }}" guid="hotosm-2019-{{ session_id | plus: 1 }}">
         <date>2019-09-19{{ session.time | date: "T%H:%M:%S" }}+02:00</date>
         <start>{{ session.time | date: "%H:%M" }}</start>
@@ -52,7 +52,7 @@
         <links/>
       </event>{% endif %}{% endfor %}{% endfor %}{% endif %}{% endfor %}
     </room>
-    <room name="Small Lecture Room">{% for page in site.pages %}{% if page.title == 'Program' %}{% for session in page.Day1 %}{% for s in session.session %}{% if s.location == 'Small Lecture Room' %}{% capture session_id %}{% increment id %}{% endcapture %}{% if s.subsessions %}{% for subsession in s.subsessions %}
+    <room name="Kleiner Horsaal">{% for page in site.pages %}{% if page.title == 'Program' %}{% for session in page.Day1 %}{% for s in session.session %}{% if s.location == 'Kleiner Horsaal' %}{% capture session_id %}{% increment id %}{% endcapture %}{% if s.subsessions %}{% for subsession in s.subsessions %}
       <event id="{{ session_id | plus: 1 }}" guid="hotosm-2019-{{ session_id | plus: 1 }}">
         <date>2019-09-19{{ session.time | date: "T%H:%M:%S" }}+02:00</date>
         <start>{{ session.time | date: "%H:%M" }}</start>
@@ -92,7 +92,7 @@
   </room>
   </day>
   <day index="2" date="2019-09-20" start="2019-09-20T08:30:00+02:00" end="2019-09-20T18:00:00+02:00">
-    <room name="West Lecture Room">{% for page in site.pages %}{% if page.title == 'Program' %}{% for session in page.Day2 %}{% for s in session.session %}{% if s.location == 'West Lecture Room' %}{% capture session_id %}{% increment id %}{% endcapture %}
+    <room name="Horsaal West">{% for page in site.pages %}{% if page.title == 'Program' %}{% for session in page.Day2 %}{% for s in session.session %}{% if s.location == 'Horsaal West' %}{% capture session_id %}{% increment id %}{% endcapture %}
       <event id="{{ session_id | plus: 1 }}" guid="hotosm-2019-{{ session_id | plus: 1 }}">
         <date>2019-09-20{{ session.time | date: "T%H:%M:%S" }}+02:00</date>
         <start>{{ session.time | date: "%H:%M" }}</start>
@@ -112,7 +112,7 @@
         <links/>
       </event>{% endif %}{% endfor %}{% endfor %}{% endif %}{% endfor %}
     </room>
-    <room name="East Lecture Room">{% for page in site.pages %}{% if page.title == 'Program' %}{% for session in page.Day2 %}{% for s in session.session %}{% if s.location == 'East Lecture Room' %}{% capture session_id %}{% increment id %}{% endcapture %}
+    <room name="Horsaal Ost">{% for page in site.pages %}{% if page.title == 'Program' %}{% for session in page.Day2 %}{% for s in session.session %}{% if s.location == 'Horsaal Ost' %}{% capture session_id %}{% increment id %}{% endcapture %}
       <event id="{{ session_id | plus: 1 }}" guid="hotosm{{ session_id | plus: 1 }}">
         <date>2019-09-20{{ session.time | date: "T%H:%M:%S" }}+02:00</date>
         <start>{{ session.time | date: "%H:%M" }}</start>
@@ -132,7 +132,7 @@
         <links/>
       </event>{% endif %}{% endfor %}{% endfor %}{% endif %}{% endfor %}
     </room>
-    <room name="Small Lecture Room">{% for page in site.pages %}{% if page.title == 'Program' %}{% for session in page.Day2 %}{% for s in session.session %}{% if s.location == 'Small Lecture Room' %}{% capture session_id %}{% increment id %}{% endcapture %}
+    <room name="Kleiner Horsaal">{% for page in site.pages %}{% if page.title == 'Program' %}{% for session in page.Day2 %}{% for s in session.session %}{% if s.location == 'Kleiner Horsaal' %}{% capture session_id %}{% increment id %}{% endcapture %}
       <event id="{{ session_id | plus: 1 }}" guid="hotosm-2019-{{ session_id | plus: 1 }}">
         <date>2019-09-20{{ session.time | date: "T%H:%M:%S" }}+02:00</date>
         <start>{{ session.time | date: "%H:%M" }}</start>
