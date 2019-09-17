@@ -58,10 +58,6 @@ Day1:
         abstract: "All of HOT’s tool development is open by default and we always want to hear what the community thinks about our technical direction. There are many ways to influence the direction of our projects - from feature implementation, testing code in different environments or contributing to the documentation, to identifying bugs, suggesting workflows to enhance the user experience or promtply reporting issues with relevant sources. We want to make HOT’s tech improvements community-driven. Our tools are better when our community contributes their skills and feedback!"
         time: "9:30 AM - 10:15 AM"
         duration: "00:45"
-      - location: Kleiner Horsaal
-        title: "Discussion: How can we make our mapping more diverse and gender inclusive?"
-        time: "10:15 AM - 11:00 AM"
-        duration: "00:45"
   - time: 11:00 AM
     session:
       - location: Main Lobby
