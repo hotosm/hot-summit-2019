@@ -91,10 +91,10 @@ Day1:
         title: "Workshop 4: Getting the Best Quality Data from the Start: Tasking Manager and Mapathons"
         presenter: 
           - people: 
+              - Geoffrey Kateregga          
               - Jess Beutler
-              - Geoffrey Kateregga
             organization: HOT
-        abstract: "If you want to get good quality remote mapping from volunteers, how you up a project on HOT’s Tasking Manager is a critical step. In this workshop, we will show how to become a Tasking Manager project manager and how to set up a task to get the best possible data from the mapping community. Participants will have the opportunity to work hands-on with Tasking Manager to refine their skills gained during this workshop.It will cover: What to include (and not include) in project descriptions and instructions for improved clarity and quality; Recommended project sizes that are effective and keep mappers mapping; Fast project activation for emergencies without compromising quality; How to communicate factors that are unique to your project’s area of interest."
+        abstract: "There is always a first time for everyone when it comes to creating your first edit on OpenStreetMap. This data can vary in quality depending on the introduction and guidance they receive. When the data is bad, validators are left with a heavy workload. However, remote mapping organizers can play a critical role in reducing data quality issues from the very beginning. In this workshop, participants will explore how to create effective tasks on the Tasking Manager and collaboratively design a mapathon organiser guide to ensure that strong data comes out of a mapathon at the end of the day."
         duration: "01:30"
       - location: Horsaal Ost
         title: "Workshop 5: Using Machine Learning to Improve Humanitarian Action"
