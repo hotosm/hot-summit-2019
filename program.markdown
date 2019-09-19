@@ -48,7 +48,7 @@ Day1:
             organization: Mapillary
        abstract: "Many of the locations mapped for humanitarian purposed rely on local mappers to collect data that is both thorough and accurate. Dense canopy cover can suggest from an aerial perspective that wilderness is on the map, but on the ground, there may be homes, businesses, roads, and more. Capturing street-level imagery presents an efficient and reliable solution. GPS-enabled cameras allow data collection in high detail and wide scale, enabling both local and remote mappers to focus on covering ground so that they can examine the data afterwards. Mapillary will lead this workshop, showing: How dense image capture differs from regular image contribution; How Mapillary imagery and derived data is useful for map editing; How Capture Projects and Mapillary for Organisations can be used to coordinate dense image capture in a specific location; How to choose and use consumer-grade camera and equipment; Methods for overcoming infrastructure and security challenges common in locations where humanitarian mapping is a priority"
         duration: "01:30"
-     - location: Horsaal West
+      - location: Horsaal West
         title: "Workshop 3: Community-Driven Software Improvements"
         presenter:
           - people:
