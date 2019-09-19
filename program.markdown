@@ -39,7 +39,7 @@ Day1:
             organization: German Red Cross
         abstract: "This workshop will present the latest initiatives in the humanitarian sector that are using Forecast-based Financing as well as Impact-based Forecasting approaches to trigger early action. We will have an interactive debate with the audience about how the humanitarian system is moving towards a more proactive and anticipatory type of humanitarian assistance. We will also debate how the HOT community can improve anticipatory approaches, and how we can support the humanitarian sector (and other sectors) to reach at-risk populations, at the right time, before a disaster happens. This way, we can reduce the negative impacts of disasters and assure that readiness for early action can be done systematically through preparedness and risk reduction efforts."
         duration: "01:30"
-     - location: Horsaal Ost
+      - location: Horsaal Ost
         title: "Workshop 2: Dense Imagery Capture and Editing in Areas with Limited Infrastructure"
         presenter: 
           - people: 
