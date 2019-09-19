@@ -29,8 +29,8 @@ Day1:
   - time: 9:30 AM
     session:
       - location: Kleiner Horsaal
-        title: "Workshop 1: The Power of OpenStreetMap and the Red Cross and Red Crescent Movement to Anticipate Disasters "
-        presenter: 
+        title: "Workshop 1: The Power of OpenStreetMap and the Red Cross and Red Crescent Movement to Anticipate Disasters"
+        presenter:
           - people:
               - Catalina Jaime
             organization: Red Cross Red Crescent Climate Center
@@ -46,7 +46,7 @@ Day1:
               - Ed Neerhut
               - Chris Beddow
             organization: Mapillary
-       abstract: "Many of the locations mapped for humanitarian purposed rely on local mappers to collect data that is both thorough and accurate. Dense canopy cover can suggest from an aerial perspective that wilderness is on the map, but on the ground, there may be homes, businesses, roads, and more. Capturing street-level imagery presents an efficient and reliable solution. GPS-enabled cameras allow data collection in high detail and wide scale, enabling both local and remote mappers to focus on covering ground so that they can examine the data afterwards. Mapillary will lead this workshop, showing: How dense image capture differs from regular image contribution; How Mapillary imagery and derived data is useful for map editing; How Capture Projects and Mapillary for Organisations can be used to coordinate dense image capture in a specific location; How to choose and use consumer-grade camera and equipment; Methods for overcoming infrastructure and security challenges common in locations where humanitarian mapping is a priority"
+        abstract: "Many of the locations mapped for humanitarian purposed rely on local mappers to collect data that is both thorough and accurate. Dense canopy cover can suggest from an aerial perspective that wilderness is on the map, but on the ground, there may be homes, businesses, roads, and more. Capturing street-level imagery presents an efficient and reliable solution. GPS-enabled cameras allow data collection in high detail and wide scale, enabling both local and remote mappers to focus on covering ground so that they can examine the data afterwards. Mapillary will lead this workshop, showing: How dense image capture differs from regular image contribution; How Mapillary imagery and derived data is useful for map editing; How Capture Projects and Mapillary for Organisations can be used to coordinate dense image capture in a specific location; How to choose and use consumer-grade camera and equipment; Methods for overcoming infrastructure and security challenges common in locations where humanitarian mapping is a priority"
         duration: "01:30"
       - location: Horsaal West
         title: "Workshop 3: Community-Driven Software Improvements"
@@ -274,9 +274,7 @@ Day2:
           - people:
               - Judith Burchett
             organization: H2H Network
-        abstract: "Can we do better, just by working together more effectively? The H2H Network has almost 50 member organisations who provide humanitarian responders with independent, high-quality and relevant services in analysis, mapping, community engagement and more. Our members are working together to reduce duplication, increase quality and ensure gaps are filled.
-What does that look like in practice? With over three million people affected and hundreds of people killed, Cyclone Idai was one of the worst tropical cyclones on record to affect Africa and the Southern Hemisphere. In recent weeks a similar sized hurricane has hit the Bahamas, causing significant damage to the region. In both events, MapAction was quickly on the ground, working collaboratively with other humanitarian actors to provide mapping and information management services to inform vital decision making.
-This talk will explore the humanitarian-to-humanitarian concept and what it means for those involved in mapping. We will look at how MapAction, OpenStreetMap, HOT and the Missing Maps Project played a vital role in the Idai and Dorian responses, ensuring relevant and timely data was available for the multiple humanitarian agencies in Mozambique and the Bahamas. We will also discuss how greater collaboration and continued use of platforms, such as HDX, can support future deployments."
+        abstract: "Can we do better, just by working together more effectively? The H2H Network has almost 50 member organisations who provide humanitarian responders with independent, high-quality and relevant services in analysis, mapping, community engagement and more. Our members are working together to reduce duplication, increase quality and ensure gaps are filled. What does that look like in practice? With over three million people affected and hundreds of people killed, Cyclone Idai was one of the worst tropical cyclones on record to affect Africa and the Southern Hemisphere. In recent weeks a similar sized hurricane has hit the Bahamas, causing significant damage to the region. In both events, MapAction was quickly on the ground, working collaboratively with other humanitarian actors to provide mapping and information management services to inform vital decision making. This talk will explore the humanitarian-to-humanitarian concept and what it means for those involved in mapping. We will look at how MapAction, OpenStreetMap, HOT and the Missing Maps Project played a vital role in the Idai and Dorian responses, ensuring relevant and timely data was available for the multiple humanitarian agencies in Mozambique and the Bahamas. We will also discuss how greater collaboration and continued use of platforms, such as HDX, can support future deployments."
         duration: "00:45"
       - location: Kleiner Horsaal
         title: "Resilient Networks, OpenStreetMap and Open Data to Achieve the SDGs"
