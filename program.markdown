@@ -28,7 +28,7 @@ Day1:
         duration: "00:20"
   - time: 9:30 AM
     session:
-      - location: Horsaal West
+    - location: Kleiner Horsaal
         title: "Workshop 1: The Power of OpenStreetMap and the Red Cross and Red Crescent Movement to Anticipate Disasters "
         presenter: 
           - people:
@@ -39,16 +39,16 @@ Day1:
             organization: German Red Cross
         abstract: "This workshop will present the latest initiatives in the humanitarian sector that are using Forecast-based Financing as well as Impact-based Forecasting approaches to trigger early action. We will have an interactive debate with the audience about how the humanitarian system is moving towards a more proactive and anticipatory type of humanitarian assistance. We will also debate how the HOT community can improve anticipatory approaches, and how we can support the humanitarian sector (and other sectors) to reach at-risk populations, at the right time, before a disaster happens. This way, we can reduce the negative impacts of disasters and assure that readiness for early action can be done systematically through preparedness and risk reduction efforts."
         duration: "01:30"
-      - location: Horsaal Ost
+     - location: Horsaal Ost
         title: "Workshop 2: Dense Imagery Capture and Editing in Areas with Limited Infrastructure"
         presenter: 
           - people: 
               - Ed Neerhut
               - Chris Beddow
             organization: Mapillary
-        abstract: "Many of the locations mapped for humanitarian purposed rely on local mappers to collect data that is both thorough and accurate. Dense canopy cover can suggest from an aerial perspective that wilderness is on the map, but on the ground, there may be homes, businesses, roads, and more. Capturing street-level imagery presents an efficient and reliable solution. GPS-enabled cameras allow data collection in high detail and wide scale, enabling both local and remote mappers to focus on covering ground so that they can examine the data afterwards. Mapillary will lead this workshop, showing: How dense image capture differs from regular image contribution; How Mapillary imagery and derived data is useful for map editing; How Capture Projects and Mapillary for Organisations can be used to coordinate dense image capture in a specific location; How to choose and use consumer-grade camera and equipment; Methods for overcoming infrastructure and security challenges common in locations where humanitarian mapping is a priority"
+       abstract: "Many of the locations mapped for humanitarian purposed rely on local mappers to collect data that is both thorough and accurate. Dense canopy cover can suggest from an aerial perspective that wilderness is on the map, but on the ground, there may be homes, businesses, roads, and more. Capturing street-level imagery presents an efficient and reliable solution. GPS-enabled cameras allow data collection in high detail and wide scale, enabling both local and remote mappers to focus on covering ground so that they can examine the data afterwards. Mapillary will lead this workshop, showing: How dense image capture differs from regular image contribution; How Mapillary imagery and derived data is useful for map editing; How Capture Projects and Mapillary for Organisations can be used to coordinate dense image capture in a specific location; How to choose and use consumer-grade camera and equipment; Methods for overcoming infrastructure and security challenges common in locations where humanitarian mapping is a priority"
         duration: "01:30"
-      - location: Kleiner Horsaal
+     - location: Horsaal West
         title: "Workshop 3: Community-Driven Software Improvements"
         presenter:
           - people:
