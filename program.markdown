@@ -365,7 +365,7 @@ Day2:
               - Joel Myhre
             organization: Pacific Disaster Center          
         duration: "00:20"        
-      - locations: Kleiner Horsaal 
+      - location: Kleiner Horsaal
         title: "#map2020: Addressing Humanitarian Challenges with Street-Level Imagery"
         presenter: 
           - people:
