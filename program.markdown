@@ -28,7 +28,7 @@ Day1:
         duration: "00:20"
   - time: 9:30 AM
     session:
-    - location: Kleiner Horsaal
+      - location: Kleiner Horsaal
         title: "Workshop 1: The Power of OpenStreetMap and the Red Cross and Red Crescent Movement to Anticipate Disasters "
         presenter: 
           - people:
