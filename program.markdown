@@ -308,7 +308,7 @@ Day2:
         abstract: "Globally, millions of people are systematically missing in national censuses and representative surveys, and excluded from humanitarian interventions, basic public services, and global settlement and population data sets. This presentation focuses on one category of the ‘Missing Millions’- refugees and internally displaced people (IDPs) living in ephemeral or long-term informal settlements. Over the last two years, we have collaborated with HOT to use OpenStreetMap data, satellite remote sensing time series, machine learning, and crowd-sourcing to better place refugee and IDP settlements on the map. This talk will outline the applications of OpenStreetMap refugee settlement data for propelling these components of the Missing Millions project forward, describe successes and identify persistent challenges to mapping informal settlements, and outline next steps in partnering with HOT to co-create a more inclusive settlement dataset."
         duration: "00:20"
       - location: Horsaal Ost
-        title: "HOT Mapping with Refugee Communities"
+        title: "Digitial Information for Ebola Preparedness"
         presenter: 
           - people:
               - Sara Amadi
