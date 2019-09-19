@@ -407,7 +407,7 @@ Day2:
           - people: 
             - Pratik Yadav
             organization: Mapbox
-        abstract: "To get imagery to mappers in an activation, we have to use satellites in space, but space is hard. Getting pixels to where they’re needed is complex. The imagery-coordination group was made for streamlining and coordinating requests during HOT activations between people on the ground, HOT mappers, and imagery providers. Working together, we make sure imagery flows to the people who need it. Join Pratik Yadav (Imagery team, Mapbox) and Nate Smith (HOTOSM) as they discuss: The imagery business, current players, and the future. How open data is open data? How could it be better? (With examples!) How can people make the most effective imagery requests?"
+        abstract: "To get imagery to mappers in an activation, we have to use satellites in space, but space is hard. Getting pixels to where they’re needed is complex. The imagery-coordination group was made for streamlining and coordinating requests during HOT activations between people on the ground, HOT mappers, and imagery providers. Working together, we make sure imagery flows to the people who need it. Join Pratik Yadav (Imagery team, Mapbox) as they discuss: The imagery business, current players, and the future. How open data is open data? How could it be better? (With examples!) How can people make the most effective imagery requests?"
         duration: "00:45"
   - time: 3:30 PM
     session:
